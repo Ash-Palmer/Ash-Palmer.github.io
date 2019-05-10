@@ -16,6 +16,7 @@ main h1 {
 }
 main img {
     float: right;
+    width: 150px;
 }
 footer {
     text-align: center;
