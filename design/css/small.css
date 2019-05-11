@@ -57,6 +57,7 @@ main {
 }
 main h1{
     color: rgb(230, 179, 39);
+    border-bottom-color: #ddd;
 }
 main figure img {width: 100%;}
 main figure{
