@@ -55,7 +55,7 @@ main {
     min-height: 10rem;
 }
 p {
-    line-height: 0;
+    line-height: 0px;
 }
 main figure img {width: 100%;}
 main figure{
