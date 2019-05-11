@@ -55,9 +55,9 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
-main h1{
+main h1 {
     color: rgb(230, 179, 39);
-    border-bottom-color: #ddd;
+    border-bottom: 5px solid #ddd;
 }
 main figure img {width: 100%;}
 main figure{
