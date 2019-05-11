@@ -18,8 +18,9 @@ header {
     background-color: #ddd;
 }
 header img {float: left; margin-right: 10px; width: 50px;}
-header h1 {margin: 0; font-size: 1.3rem; padding: 0;}
-header h2 {margin: 0; font-weight: normal; font-size: 1rem; padding: 0;}
+header h1 {margin: 0px 0px 0px 0px; font-size: 1.3rem; 
+padding: 0px 0px 0px 0px;}
+header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
 
 
 /*----------- NAVIGATION --------------*/
@@ -55,7 +56,10 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
-
+main p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
 main figure img {width: 100%;}
 main figure{
     width: 100%;
