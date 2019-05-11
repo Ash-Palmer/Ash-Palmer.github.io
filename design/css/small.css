@@ -55,6 +55,9 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
+main h1{
+    color: #ddd;
+}
 main figure img {width: 100%;}
 main figure{
     width: 100%;
@@ -67,7 +70,7 @@ main figcaption {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: rgb(230, 179, 39);
     padding: .5rem 2%;
     text-align: center;
     clear: both;
