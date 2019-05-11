@@ -52,10 +52,7 @@ nav ul li.active a {
     color: #fff;
 }
 /*----------- MAIN --------------*/
-main {
-    padding: 0 2%;
-    min-height: 10rem;
-}
+
 main p {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
