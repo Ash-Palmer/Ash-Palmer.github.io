@@ -15,11 +15,13 @@
 
 
 /*----------- NAVIGATION --------------*/
-
+nav ul {padding-left: 2%;}
+nav li {width: auto;}
+nav a {padding: .5rem 1rem;}
 
 
 /*----------- MAIN --------------*/
-
+main figure {width: 31%;}
 
 
 /*----------- FOOTER --------------*/
