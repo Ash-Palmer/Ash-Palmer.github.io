@@ -16,9 +16,9 @@
     header h1 {
         margin: 0;
     }
+    
     header h2 {
         margin: 0;
-        color: black;
     }
     
     
@@ -39,7 +39,8 @@
         padding: 1rem 2%;
         display: block;
     }
-    main h1, h2 {color: rgb(65, 108, 148);}
+    main h1 {color: rgb(65, 108, 148);}
+
     
     main figure img {width: 100%;}
     main figure{
