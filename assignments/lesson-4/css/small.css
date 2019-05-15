@@ -29,7 +29,7 @@
     nav li {list-style-type: none;}
     nav li.active {background-color: rgb(39, 110, 218);}
     nav a {
-        display: bolck;
+        display: block;
         padding: .8rem; 
         color: #eee;
         text-align: center;
