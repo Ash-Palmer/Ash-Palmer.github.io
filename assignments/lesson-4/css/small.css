@@ -20,7 +20,7 @@
     
     header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
     
-    h1, h2 {
+    h1, h2, h3 {
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
@@ -58,6 +58,10 @@
         clear: both;
         column-count: 2;
         column-rule: 1px solid #ddd;
+    }
+
+    .upper-footer {
+        background-color: #f0aa29;
     }
     footer {
         text-align: center;
