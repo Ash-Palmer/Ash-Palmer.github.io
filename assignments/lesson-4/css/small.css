@@ -10,7 +10,7 @@
         font-size: 16px;
     }
     header {
-        background-color: #f0aa29;
+        background-color: rgb(231, 185, 59);
         padding: .5rem 2%;
     }
     
@@ -24,7 +24,7 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
-    nav {background-color: rgb(231, 185, 59);}
+    nav {background-color: #f0aa29;}
     nav ul {margin: 0; padding: 0;}
     nav li {list-style-type: none;}
     nav li.active {background-color: rgb(39, 110, 218);}
