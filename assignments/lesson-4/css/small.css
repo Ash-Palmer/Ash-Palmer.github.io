@@ -24,10 +24,10 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
-    nav {background-color: rgb(65, 108, 148);}
+    nav {background-color: rgb(231, 151, 59);}
     nav ul {margin: 0; padding: 0;}
     nav li {list-style-type: none;}
-    nav li.active {background-color: #333;}
+    nav li.active {background-color: rgb(39, 110, 218);}
     nav a {
         display: bolck;
         padding: .8rem; 
@@ -41,7 +41,7 @@
         padding: 1rem 2%;
         display: block;
     }
-    main h1 {color: rgb(65, 108, 148);}
+    main h1 {color: rgb(39, 110, 218);}
 
     
     main figure img {width: 100%;}
