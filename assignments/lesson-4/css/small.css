@@ -10,16 +10,15 @@
         font-size: 16px;
     }
     header {
-        background-color: #e48417;
-        padding: 1rem 2%;
-    }
-    header h1 {
-        margin: 0;
+        background-color: #f0aa29;
+        padding: .5rem 2%;
     }
     
-    header h2 {
-        margin: 0;
-    }
+    header img {float: left; margin-right: 10px; width: 50px;}
+    
+    header h1 {margin: 0; font-size: 1.3rem;}
+    
+    header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
     
     h1, h2 {
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -63,7 +62,7 @@
     footer {
         text-align: center;
         padding: 1rem 2%;
-        background-color: #e48417;
+        background-color: #f0aa29;
     }
     
     
