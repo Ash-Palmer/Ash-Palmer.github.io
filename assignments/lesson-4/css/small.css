@@ -10,7 +10,7 @@
         font-size: 16px;
     }
     header {
-        background-color: rgb(209, 132, 59);
+        background-color: rgb(224, 142, 65);
         padding: .5rem 2%;
     }
     
@@ -62,7 +62,7 @@
     footer {
         text-align: left;
         padding: 1rem 2%;
-        background-color: rgb(231, 185, 59);
+        background-color: rgb(224, 142, 65);
     }
     
     
