@@ -11,7 +11,7 @@
     div.news {
         column-count: 4;
     }
-    
-    
-        
+    div.row section:nth-child(1) {width: 33.3%; float: left;}
+    div.row section:nth-child(2) {width: 33.3%;}
+    div.row section:nth-child(3) {width: 33.3%;}   
     }

@@ -41,10 +41,15 @@
         padding: 1rem 2%;
         display: block;
     }
-    main h1 {color: rgb(39, 110, 218);}
+    main h1 {padding: 0 2%; color: rgb(39, 110, 218);}
 
-    
-    main figure img {width: 100%;}
+    figure { margin: 0; width: 100%;}
+    figure img {width: 100%;}
+    iframe {width: 100%; height: 300px;}
+    div.row section {padding: 0 2%; background-color: #f0aa29;}
+    div.row {clear: both;}
+
+    main figure img {width: 100%; float: right;}
     main figure{
         width: 100%;
         margin: 0;
@@ -59,15 +64,11 @@
         column-count: 2;
         column-rule: 1px solid #ddd;
     }
-
-    .upper-footer {
-        background-color: #f0aa29;
-    }
-    
     footer {
         text-align: center;
         padding: 1rem 2%;
         background-color: rgb(224, 142, 65);
+        clear: both;
     }
     
     
