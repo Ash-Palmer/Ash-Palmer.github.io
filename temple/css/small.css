@@ -58,6 +58,11 @@
         column-count: 2;
         column-rule: 1px solid #ddd;
     }
+    
+    li.reference {text-decoration: none;
+        margin: 0;
+    }
+    
     footer {
         text-align: center;
         padding: 1rem 2%;
