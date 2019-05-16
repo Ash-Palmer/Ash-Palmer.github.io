@@ -14,7 +14,7 @@
         padding: .5rem 2%;
     }
     
-    header img {float: left; margin-right: 10px; width: 50px;}
+    header img {float: left; margin-right: 10px;}
     
     header h1 {margin: 0; font-size: 1.3rem;}
     
@@ -41,7 +41,9 @@
         padding: 1rem 2%;
         display: block;
     }
-    main h1 {padding: 0 2%; color: rgb(39, 110, 218);}
+    main h1 {padding: 0 2%; margin: 0; color: rgb(39, 110, 218);}
+
+    h2 { color: rgb(118, 161, 224)}
 
     figure { margin: 0; width: 100%;}
     figure img {width: 100%;}
