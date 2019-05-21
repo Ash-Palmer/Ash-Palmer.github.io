@@ -48,8 +48,8 @@
     figure { margin: 0; width: 100%;}
     figure img {width: 100%;}
     iframe {width: 100%; height: 300px;}
+    div.row section { padding: 0 2%;}
     div.row {
-        padding: 0 2%;
         clear: both;
         background-color: #f0aa29;
     }
