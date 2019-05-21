@@ -50,8 +50,9 @@
     iframe {width: 100%; height: 300px;}
     div.row section { padding: 0 2%;}
     div.row {
-        clear: both;
         background-color: #f0aa29;
+        clear: both;
+        
     }
     
     figcaption {
