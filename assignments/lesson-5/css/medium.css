@@ -23,6 +23,7 @@
 
 .hide {
     left: 0;
+    position: relative;
 }
 
 main figure {
