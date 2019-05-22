@@ -43,6 +43,9 @@ nav a:hover {background-color: rgb(118, 161, 224);}
         position: relative;
     }
 
+.herodiv img {
+    width: 100%;
+}
 
 .conditions {
         position: absolute;
