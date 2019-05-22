@@ -63,7 +63,7 @@
         top: 50px;
         left: 50px;
         padding: .5rem;
-        background-color: white;
+        background-color: rgb(224, 142, 65);
         box-shadow: 0 0 30px #777;
     }
 
@@ -73,8 +73,8 @@
 
     figure { margin: 0; width: 100%;}
     figure img {width: 100%; clear: both;}
-    div.row section {padding: 0 2%; background-color: #f0aa29;}
-    div.row {clear: both;}
+    div.row section {padding: 0 2%; }
+    div.row {clear: both; background-color: #f0aa29;}
     
     figcaption {
         text-align: center;
