@@ -22,7 +22,7 @@
     /*----------- MAIN --------------*/
 
 .hide {
-    position: relative;
+    left: 0;
 }
 
 main figure {

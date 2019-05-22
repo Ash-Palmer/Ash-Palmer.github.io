@@ -47,12 +47,11 @@ nav a:hover {background-color: rgb(118, 161, 224);}
 
 .hide {
     left: -99999px;
-    position: relative;
+    position: absolute;
 }
 
 .herodiv img {
     width: 100%;
-    
 }
 
 .conditions {
