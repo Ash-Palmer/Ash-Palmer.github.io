@@ -47,6 +47,7 @@
         top: 50px;
         left: 50px;
         padding: .5rem;
+        border: 1px solid #000;
         background-color: rgb(178, 207, 241);
         box-shadow: 0 0 30px rgb(224, 142, 65);
     }
