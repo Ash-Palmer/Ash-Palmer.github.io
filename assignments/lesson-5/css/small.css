@@ -38,7 +38,8 @@
     nav a:hover {background-color: rgb(118, 161, 224);}
     
     .herodiv { 
-        margin: 0 auto; 
+        margin: 0; 
+        width: 100%;
         position: relative;
     }
 
@@ -87,8 +88,11 @@ table tr:nth-child(odd) td {
         clear: both;}
 
     figure { margin: 0; width: 100%;}
+    
     figure img {width: 100%; clear: both;}
+    
     div.row section {padding: 0 2%; }
+    
     div.row {clear: both; background-color: #f0aa29;}
     
     figcaption {
