@@ -2,8 +2,7 @@
     -webkit-box-sizing: border-box; box-sizing: 
     border-box; }
 
-    @media (max-width: 559px) { 
-        .hide { display: none; }
+
     
     html {-webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;}
