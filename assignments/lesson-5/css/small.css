@@ -57,6 +57,7 @@ nav a:hover {background-color: rgb(118, 161, 224);}
 table {
     border-collapse: collapse;
     width: 100%;
+    height: 560px;
     border: 1 px solid #000;
 }
 
