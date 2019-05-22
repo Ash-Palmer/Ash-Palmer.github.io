@@ -44,12 +44,7 @@
         height: 300px;
         clear: both;
     }
-    .cloudimg {
-        margin: 0;
-        width: 100%;
-        position: relative; 
-        clear: both;
-    }
+
     .conditions {
         position: absolute;
         top: 50px;
