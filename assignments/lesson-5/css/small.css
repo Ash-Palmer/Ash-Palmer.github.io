@@ -72,36 +72,37 @@ table td {
 table tr:nth-child(odd) td {
     background-color: #f0aa29;
 }
-    main {
+
+main {
         padding: 1rem 2%;
         display: block;
         margin: 0;
         clear: both;
     }
 
-    main h1 { 
+main h1 { 
         padding: 1rem 2%; 
         margin: 0; 
         color: rgb(39, 110, 218);}
         
-    main h2 { color: rgb(118, 161, 224); 
+main h2 { color: rgb(118, 161, 224); 
         padding: 0; 
         clear: both;}
 
-    figure { margin: 0; width: 100%;}
+figure { margin: 0; width: 100%;}
     
-    figure img {width: 100%; clear: both;}
+figure img {width: 100%; clear:both; }
     
-    div.row section {padding: 0 2%; }
+div.row section {padding: 0 2%; }
     
-    div.row {clear: both; background-color: #f0aa29;}
+div.row {clear: both; background-color: #f0aa29;}
     
-    figcaption {
+figcaption {
         text-align: center;
         font-size: .8rem;
     }
     
-    footer {
+footer {
         text-align: center;
         padding: 1rem 2%;
         background-color: rgb(224, 142, 65);
@@ -109,7 +110,7 @@ table tr:nth-child(odd) td {
     }
     
     
-    .clearfix:after {
+.clearfix:after {
         content: "";
         display: table;
         clear: both;
