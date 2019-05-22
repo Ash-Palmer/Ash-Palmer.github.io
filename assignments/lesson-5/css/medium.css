@@ -23,8 +23,9 @@
 
 .hide {
     margin: 0; 
+    left: 99999;
     width: 100%;
-    position: relative;
+   
     
 }
 
