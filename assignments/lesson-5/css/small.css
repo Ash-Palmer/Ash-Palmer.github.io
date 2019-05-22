@@ -38,7 +38,7 @@
     nav a:hover {background-color: rgb(118, 161, 224);}
     
     .herodiv { 
-        margin: 10px auto; 
+        margin: 0 auto; 
         position: relative;
     }
 
@@ -60,7 +60,7 @@
     }
 
     main h1 { 
-        padding: 1rem 2%; 
+        padding: 0; 
         margin: 0; 
         color: rgb(39, 110, 218);}
         
