@@ -20,7 +20,14 @@
     
     
     /*----------- MAIN --------------*/
-    table {
+.herodiv {
+    z-index: 1000;
+}
+
+.hide {
+    z-index: 1000;
+}
+table {
         border-collapse: collapse;
         width: 100%;
         border: 1 px solid #000;
@@ -39,15 +46,15 @@ table td {
 table tr:nth-child(odd) td {
         background-color: #f0aa29;
     }
-    main figure {
+main figure {
         float: right;
         width: 48%;
         margin-left: 2%;
         padding-bottom: .5rem;
     }
-    div.row section:nth-child(1) {width: 50%; float: left;}
-    div.row section:nth-child(2) {width: 50%; float: left;}
-    div.row {clear: both; background-color: #f0aa29;}
+div.row section:nth-child(1) {width: 50%; float: left;}
+div.row section:nth-child(2) {width: 50%; float: left;}
+div.row {clear: both; background-color: #f0aa29;}
     /*----------- FOOTER --------------*/
         
     } /* end of media query */
