@@ -53,7 +53,11 @@
         width: 960px;
         height: 300px;
     }
-
+    .cloudimg {
+        margin: 0;
+        width: 100%;
+        clear: both;
+    }
     .conditions {
         position: absolute;
         top: 50px;
