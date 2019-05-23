@@ -20,15 +20,9 @@
     
     
     /*----------- MAIN --------------*/
-
 .hide {
-    margin: 0; 
-    left: 99999;
-    width: 100%;
-   
-    
+    display: block;
 }
-
 main figure {
         float: right;
         width: 48%;
