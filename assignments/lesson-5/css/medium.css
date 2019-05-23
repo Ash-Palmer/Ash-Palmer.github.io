@@ -20,9 +20,11 @@
     
     
     /*----------- MAIN --------------*/
+
 .hide {
     display: block;
 }
+
 main figure {
         float: right;
         width: 48%;
