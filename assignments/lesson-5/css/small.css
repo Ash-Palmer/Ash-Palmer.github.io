@@ -38,7 +38,12 @@
         text-decoration: none;
     }
 nav a:hover {background-color: rgb(118, 161, 224);}
-    
+
+.herodiv {
+    margin: 0;
+    position: relative; 
+}
+
 .herodiv img {
     width: 100%;
 }
@@ -56,7 +61,7 @@ nav a:hover {background-color: rgb(118, 161, 224);}
 .hide {
         display: none;
     }
-    
+
 table {
         border-collapse: collapse;
         width: 100%;
