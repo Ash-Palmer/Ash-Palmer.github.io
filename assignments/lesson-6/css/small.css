@@ -36,20 +36,19 @@
     
     nav {background-color: #f0aa29;}
     
-    nav ul {margin: 0; padding: 0;}
+    nav ul {margin: 0; padding: 0; list-style-type: none;}
     
-    nav li {list-style-type: none; text-align: center;}
+    nav ul li.active {background-color: rgb(39, 110, 218);}
     
-    nav li.active {background-color: rgb(39, 110, 218);}
-    
-    nav a {
-        display: inline-block;
-        padding: .8rem; 
-        color: #eee;
+    nav ul li a {
+        display: block;
+        padding: .8rem 2%; 
+        color: #000;
         text-align: center;
         text-decoration: none;
+        border-top: 1px solid rgba(0,0,0,0.3);
     }
-nav a:hover {background-color: rgb(118, 161, 224);}
+nav ul li a:hover {background-color: rgb(118, 161, 224);}
 
 nav ul.goaway {display: none;}
 
@@ -136,4 +135,4 @@ footer {
         display: table;
         clear: both;
     }
-    }
+    
