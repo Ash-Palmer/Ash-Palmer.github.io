@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1028px){
+
+    nav, footer, main {max-width: 75rem; margin: auto;}
+    
+    nav button {display: none;}
+
+    nav ul.goaway {display: block;}
+
+    nav ul {margin-left: 2%;}
+
+    nav ul li {float: left;}
+
+    nav li {width: auto;}
+
+    nav a {padding: .5rem 1rem;}
+    
+    main figure {width: 48%;}
+     
+    }
