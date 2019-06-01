@@ -51,11 +51,7 @@ nav ul li a:hover {background-color: rgb(118, 161, 224);}
 
 nav ul.goaway {display: none;}
 
-.herodiv {
-    margin: 0;
-    position: relative;
-}
-figure.herodiv img {
+.herodiv img {
     position: relative;
     width: 100%;
     margin: 0;
