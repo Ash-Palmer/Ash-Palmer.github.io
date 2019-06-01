@@ -1,7 +1,8 @@
 * { -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box; box-sizing: 
     border-box; }
-
+    
+    @media only screen and (max-width: 799px) {
 
     
     html {-webkit-text-size-adjust: 100%;
@@ -53,13 +54,11 @@ nav a:hover {background-color: rgb(118, 161, 224);}
 
 nav ul.goaway {display: none;}
 
-.herodiv {
-    margin: 0;
-    position: relative; 
-}
-
-.herodiv img {
+.herodiv figure img {
+    position: relative;
     width: 100%;
+    margin: 0;
+   
 }
 
 .conditions {
@@ -137,4 +136,5 @@ footer {
         content: "";
         display: table;
         clear: both;
+    }
     }
