@@ -56,7 +56,7 @@ nav ul.goaway {display: none;}
     margin: 0;
     position: relative;
 }
-.herodiv figure img {
+figure.herodiv img {
     position: relative;
     width: 100%;
     margin: 0;
