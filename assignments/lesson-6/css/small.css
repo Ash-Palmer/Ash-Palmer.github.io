@@ -129,7 +129,13 @@ footer {
         background-color: rgb(224, 142, 65);
         clear: both;
     }
-    
+ footer button {
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #fff;
+ }   
     
 .clearfix:after {
         content: "";
