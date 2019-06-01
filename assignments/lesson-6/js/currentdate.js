@@ -10,15 +10,15 @@ weekday[6]= "Saturday";
 var n = weekday[today.getDay()];
 
 var dd= today.getDate();
-document.getElementById("").innerHTML=dd.getDate();
+document.getElementById("currentdate").innerHTML=dd.getDate();
 
 var mm= new Date();
 var months = ["January","February","March","April","May","June","July","August",
 "September","October","November","December"];
-document.getElementById("").innerHTML=months[mm.getMonth()];
+document.getElementById("currentdate").innerHTML=months[mm.getMonth()];
 
 var yyyy= today.getFullYear();
-document.getElementById("").innerHTML=today.getFullYear();
+document.getElementById("currentdate").innerHTML=today.getFullYear();
 
 
 
