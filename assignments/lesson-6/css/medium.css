@@ -26,22 +26,12 @@
     
     
     /*----------- MAIN --------------*/
-    .herodiv {
-        margin: 0;
-        position: relative; 
-    }
-    
-    .herodiv img {
-        width: 100%;  
-    }
-
 .hide {
     display: block;
 }
 
 main figure {
         float: right;
-        width: 48%;
         margin-left: 2%;
         padding-bottom: .5rem;
     }
