@@ -35,7 +35,7 @@
 
 figure sign.img {
         float: right;
-       
+        width: 48%;
         margin-left: 2%;
         padding-bottom: .5rem;
     }
