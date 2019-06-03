@@ -33,7 +33,7 @@
     display: block;
 }
 
-figure sign.img {
+figure.sign img {
         float: right;
         width: 48%;
         margin-left: 2%;
