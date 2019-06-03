@@ -56,7 +56,7 @@ nav ul.goaway {display: none;}
     position: relative; 
 }
 
-.conditions {
+.herodiv.conditions {
         position: absolute;
         top: 35px;
         left: 35px;
