@@ -38,8 +38,6 @@
     
     nav ul {margin: 0; padding: 0; list-style-type: none;}
     
-    nav ul li.active a{background-color: rgba(39, 110, 218); color: #fff;}
-    
     nav ul li a {
         display: block;
         padding: .8rem 2%; 
@@ -48,6 +46,9 @@
         text-decoration: none;
         border-top: 1px solid rgba(0,0,0,0.3);
     }
+
+nav ul li.active a{background-color: rgba(39, 110, 218); color: #fff;}
+
 nav ul li a:hover {background-color: rgba(118, 161, 224);}
 
 nav ul.goaway {display: none;}
