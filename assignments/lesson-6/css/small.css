@@ -113,11 +113,6 @@ main h2 { color: rgb(118, 161, 224);
 figure { margin: 0; width: 100%;}
         
 figure.sign img {width: 100%; clear:both; }
-
-figcaption {
-    text-align: center;
-    font-size: .8rem;
-}
     
 div.row section {padding: 0 2%; }
     
