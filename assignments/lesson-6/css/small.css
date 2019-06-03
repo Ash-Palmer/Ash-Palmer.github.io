@@ -59,7 +59,7 @@ nav ul.goaway {display: none;}
     width: 100%;
 }
 
-.heroimg {margin: 0; width: 100%;}
+figure.heroimg {margin: 0; width: 100%;}
 
 .conditions {
         position: absolute;
