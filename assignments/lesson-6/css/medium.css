@@ -26,6 +26,14 @@
     
     
     /*----------- MAIN --------------*/
+    .herodiv {
+        margin: 0;
+        position: relative; 
+    }
+    
+    .herodiv img {
+        width: 100%;  
+    }
 
 .hide {
     display: block;
