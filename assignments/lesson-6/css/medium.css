@@ -14,8 +14,11 @@
     
     /*----------- NAVIGATION --------------*/
         nav button {display: none;}
+
         nav ul {margin-left: 2%;}
-        nav ul li {float: left; width: 16%;}
+
+        nav ul li {float: left;}
+
         nav ul li a {
             border: none; 
             border-right: 1px solid rgba(0,0,0,0.3);
