@@ -32,9 +32,11 @@
 
 main figure {
         float: right;
+        width: 48%;
         margin-left: 2%;
         padding-bottom: .5rem;
     }
+
 div.row section:nth-child(1) {width: 50%; float: left;}
 div.row section:nth-child(2) {width: 50%; float: left;}
 div.row {clear: both; background-color: #f0aa29;}
