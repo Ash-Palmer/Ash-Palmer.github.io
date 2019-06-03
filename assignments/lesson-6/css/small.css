@@ -59,8 +59,8 @@ nav ul.goaway {display: none;}
 
 .conditions {
         position: absolute;
-        top: 235px;
-        left: 135px;
+        top: 255px;
+        left: 125px;
         padding: .5rem;
         border: 1px solid #000;
         background-color: rgb(178, 207, 241);
