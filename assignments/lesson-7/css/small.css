@@ -18,7 +18,7 @@
         grid-template-columns: 125px auto;
     }
     
-    header figure.logo {float: left; margin-right: 2%; width: auto;}
+    header img.logo {float: left; margin-right: 2%; width: auto;}
     
     header h1 {margin: 0; font-size: 1.3rem; margin-top: 1rem;}
     
