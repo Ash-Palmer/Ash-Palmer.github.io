@@ -14,11 +14,13 @@
     header {
         background-color: rgb(224, 142, 65);
         padding: .5rem 2%;
+        display: grid;
+        grid-template-columns: 155px auto;
     }
     
     header figure.logo {float: left; margin-right: 2%; width: auto;}
     
-    header h1 {margin: 0; font-size: 1rem;}
+    header h1 {margin: 0; font-size: 1rem; margin-top: .5rem;}
     
     header h2 {margin: 0; font-weight: normal; font-size: .7rem;}
     
