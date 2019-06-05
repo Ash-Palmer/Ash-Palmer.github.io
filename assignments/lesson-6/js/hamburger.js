@@ -1,3 +1,3 @@
 function toggleMenu() {
-    document.getElementById("primaryNav").classlist.toggle("goaway");
+    document.getElementById("primaryNav").classList.toggle("goaway");
 }
