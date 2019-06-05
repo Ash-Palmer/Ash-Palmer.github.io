@@ -15,7 +15,7 @@
         background-color: rgb(224, 142, 65);
         padding: .5rem 2%;
         display: grid;
-        grid-template-columns: 125px auto;
+        grid-template-columns: 110px auto;
     }
     
     header img.logo {float: left; margin-right: 2%; width: auto;}
