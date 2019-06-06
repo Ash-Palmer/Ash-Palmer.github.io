@@ -126,6 +126,8 @@ div.weatherGallery figure img {
     width: 100%;
 }
 
+div.weatherGallery figcaption {text-align: center;}
+
 figure { margin: 0; width: 100%;}
         
 figure.sign img {width: 100%; clear:both; }
