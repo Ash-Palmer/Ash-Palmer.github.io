@@ -112,6 +112,20 @@ main h2 { color: rgb(118, 161, 224);
         padding: 0; 
         clear: both;}
 
+div.weatherGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.weatherGallery figure {
+    flex-basis: 96%;
+    margin: 1rem 2%;
+}
+
+div.weatherGallery figure img {
+    width: 100%;
+}
+
 figure { margin: 0; width: 100%;}
         
 figure.sign img {width: 100%; clear:both; }

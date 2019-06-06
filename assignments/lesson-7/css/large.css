@@ -16,6 +16,8 @@
 
     nav ul.goaway { display: block;}
     
-
+    div.weatherGallery figure {
+        flex-basis: 29%;
+    }
      
     }

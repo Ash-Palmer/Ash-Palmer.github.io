@@ -28,6 +28,10 @@ figure.sign img {
         padding-bottom: .5rem;
     }
 
+div.weatherGallery figure {
+    flex-basis: 46%;
+}
+
 div.row section:nth-child(1) {width: 50%; float: left;}
 div.row section:nth-child(2) {width: 50%; float: left;}
 div.row {clear: both; background-color: #f0aa29;}
