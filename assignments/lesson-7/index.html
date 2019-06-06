@@ -16,23 +16,28 @@
 </head>
 
 <body>
-<header class="clearfix">
-    <img src="images/weather-logo.png" alt="logo">	
-        <h1>Local Weather Forecast.news</h1>
-            <h2>Idaho's #1 Weather Channel</h2>
-</header>
+    <header class="clearfix">
+        <img class="logo" src="images/weather-logo.png" alt="logo" 
+        srcset="images/weather-logo1.png 1x, images/weather-logo2.png 2x,
+        images/weather-logo3.png 3x">
+            <div>
+                <h1>Local Weather Forecast.news</h1>
+                <h2>Idaho's #1 Weather Channel</h2>
+            </div>
+    </header>
 
 <!-- NAVIGATION HERE -->
 <nav class="clearfix">
-        <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li> 
-            <li><a href="stormcenter.html">Storm Center</a></li> 
-            <li><a href="gallery.html">Gallery</a></li>   
-        </ul>
-    </nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="goaway">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li> 
+                <li><a href="stormcenter.html">Storm Center</a></li> 
+                <li><a href="gallery.html">Gallery</a></li>   
+            </ul>
+</nav>
 
 <!-- CONTENT HERE -->
 <main>
@@ -70,18 +75,15 @@
         </div>   
 
 <!-- FOOTER HERE -->   
-    <footer>  
-        <section>
-                <h3>Local Weather Forecast.news</h3>
-                <p>777-777-7777</p>
-                <br>localweatherforecast@lwf.news</br>
-                <img src="images/map-home.jpg" alt="Map of Idaho">
-        </section>      
-    &copy;2019 Local Weather Forecast.news | Ashley Stevens
-    <br>Wednesday, 15, May 2019</br>
-    </footer>
+<footer id="outputdiv">
+    &copy; Ashley Stevens |  <button onclick="displayDate()">Current Date</button>   
+</footer>
+        
+<script src="js/hamburger.js"></script>
+<script src="js/currentdate.js"></script>
 
 </body>
+
 </html>
 
 
