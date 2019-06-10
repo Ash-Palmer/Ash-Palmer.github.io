@@ -11,3 +11,22 @@ table, th, td {
 th, td {
     padding: 5px;
 }
+
+thead, tfoot {
+    background-color: #7fb9c2;
+    color: black;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #e7f0ed;
+
+}
+
+th, .success {
+    background-color: #628ca6;
+    color: white;
+}
+
+tfoot {
+    font-size: 12px;
+}
