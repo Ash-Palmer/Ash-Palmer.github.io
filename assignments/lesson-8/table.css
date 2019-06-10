@@ -17,11 +17,11 @@ thead th, tfoot td {
 }
 
 tr {
-    background-color: #e7ffed;
+    background-color: #e7f0ed;
 }
 
 tr:nth-child(even) {
-    background-color: #e7f0ed;
+    background-color: #e7ffed;
 }
 
 th, .success {
