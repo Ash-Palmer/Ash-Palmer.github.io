@@ -12,6 +12,10 @@ th, td {
     padding: 5px;
 }
 
+thead th {
+    font-size: 20px;
+}
+
 thead th, tfoot td {
     background-color: #7fb9c2;
     color: black;
@@ -23,6 +27,10 @@ tr {
 
 tr:nth-child(even) {
     background-color: #e7ffed;
+}
+
+th {
+    font-weight: bold;
 }
 
 th, .success {
