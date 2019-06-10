@@ -14,7 +14,6 @@ th, td {
 
 thead th {
     font-size: 20px;
-    font-weight: bold;
 }
 
 thead th, tfoot td {
@@ -28,10 +27,6 @@ tr {
 
 tr:nth-child(even) {
     background-color: #e7ffed;
-}
-
-th {
-    font-weight: bold;
 }
 
 th, .success {
