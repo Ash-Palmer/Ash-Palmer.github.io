@@ -19,7 +19,7 @@ thead, tfoot {
 
 table tr:nth-child(odd) td {
     background-color: #e7f0ed;
-
+    color: black;
 }
 
 th, .success {
