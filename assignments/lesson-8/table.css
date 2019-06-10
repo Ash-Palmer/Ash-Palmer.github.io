@@ -1,6 +1,9 @@
 table {
     font-family: Ubuntu sans-serif;
     width: 100%;
+}
+
+table, th, td {
     border: 1px solid #000;
     border-collapse: collapse;
 }
