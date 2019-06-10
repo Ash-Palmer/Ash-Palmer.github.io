@@ -14,17 +14,14 @@ th, td {
 
 thead th, tfoot td {
     background-color: #7fb9c2;
-    color: black;
 }
 
 tr {
     background-color: #e7ffed;
-    color: black;
 }
 
 tr:nth-child(even) {
     background-color: #e7f0ed;
-    color: black;
 }
 
 th, .success {
