@@ -127,7 +127,7 @@ form legend {
 form label.top {
     display: block;
     padding-top: 1rem;
-    color: rgba(118, 161, 224);
+    color: black;
     font-size: .8rem;
 }
 form label.top input, form label.bottom input {
