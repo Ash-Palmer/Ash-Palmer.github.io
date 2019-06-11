@@ -147,6 +147,11 @@ form label.bottom {
     padding: .75rem 0;
     color: black;
 }
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
 form input.submitBtn {
     border: none;
     background-color: rgba(39, 110, 218);
