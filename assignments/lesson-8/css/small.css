@@ -115,22 +115,22 @@ main h2 { color: rgb(118, 161, 224);
 /*----------- FORM --------------*/
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid rgba(118, 161, 224);
+    border: 1px solid rgb(224, 142, 65);
     border-radius: 10px;
     padding: .5rem 2%;
 }
 form legend {
-    color: rgba(118, 161, 224);
+    color: rgb(224, 142, 65);
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 form label.top {
     display: block;
     padding-top: 1rem;
-    color: rgb(224, 142, 65);
+    color: rgba(118, 161, 224);
     font-size: .8rem;
 }
-form label.top input {
+form label.top input, form label.bottom input {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -158,10 +158,10 @@ form input.submitBtn {
     max-width: 20rem;
 }
 form label.top input:required {
-    border-left: rgba(39, 110, 218) solid 6px;
+    border-left: rgb(224, 142, 65) solid 6px;
 }
 form label.top input:required:valid {
-    border-left: rgba(39, 110, 218) solid 6px;
+    border-left: rgb(224, 142, 65) solid 6px;
 }
 
 div.weatherGallery {
