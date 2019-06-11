@@ -124,13 +124,13 @@ form legend {
     margin: 0 1rem;
     padding: 0 .5rem;
 }
-form label.top, form div {
+form label.top {
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
     font-size: .8rem;
 }
-form label.top input, form label.top select {
+form label.top input {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -142,7 +142,7 @@ form label.top input, form label.top select {
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
-form label.sbs {
+form label.bottom {
     display: block;
     padding: .75rem 0;
     color: #555;

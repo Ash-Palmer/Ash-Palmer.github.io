@@ -46,9 +46,27 @@
         <fieldset>
             <legend>Contact Information</legend>
                 <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z] {5}" required></label>
-                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Email <input type="email" name="email" placeholder="user@gmail.com"></label>
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top">Zip Code* <input type="number" name="zip" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Storm Details</legend>
+                <label class="bottom">Storm Date <input type="date" name="date"></label>
+                <label class="bottom">Storm Type <input list="stormType">
+                <datalist id="stormType">
+                    <option value="flashFlood">Flash Flood</option>
+                    <option value="hail">Hail</option>
+                    <option value="hurricane">Hurricane</option>
+                    <option value="thunderstorm">Thunderstorm</option>
+                    <option value="tornado">Tornado</option>                  
+                </datalist>
+                </label>
+                <label for="rating">Rating (1 to 10): <input type="range" 
+                    id="rating" value="5" min="1" max="10" step="1" 
+                oninput="adjustRating(this.value)" 
+                onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
         </fieldset>
 
 
