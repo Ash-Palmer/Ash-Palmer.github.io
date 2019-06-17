@@ -12,7 +12,7 @@ th, td {
     padding: 5px;
 }
 
-.bold { text-emphasis: bold;}
+.bold { font-weight: bold;}
 
 thead th {
     font-size: 20px;
