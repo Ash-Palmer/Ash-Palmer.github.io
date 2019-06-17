@@ -12,6 +12,8 @@ th, td {
     padding: 5px;
 }
 
+.bold { text-emphasis: bold;}
+
 thead th {
     font-size: 20px;
 }
