@@ -76,8 +76,7 @@
     &copy; Ashley Stevens |  <button onclick="displayDate()">Current Date</button>   
 </footer>
  
-<script>
-        var header = document.querySelector('header');
+<script class="weatherTowns">
         var section = document.querySelector('section');
             
         var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
@@ -88,19 +87,8 @@
             
         request.onload = function() {
         var townSections = request.response;
-        populateHeader(townSections);
         showTowns(townSections);
                 }
-            
-        function populateHeader(jsonObj) {
-        var myH1 = document.createElement("h1");
-        myH1.textContent = jsonObj["name"];
-        header.appendChild(myH1);
-
-        var myPara = document.createElement("p");
-        myPara.textContent = "Motto: " + jsonObj['motto'] + 'Year founded: ' + jsonObj['yearFounded'];
-        header.appendChild(myPara);
-        }
                 
         function showTowns(jsonObj) {
         var townNames = jsonObj["towns"];
@@ -111,25 +99,19 @@
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
-        var myList = document.createElement('ul');
+        var myPara4 = document.createElement('p');
             
         myH2.textContent = townNames[i].name;
-        myPara1.textContent = 'Current population: ' + townNames[i].currentPopulation;
-        myPara2.textContent = 'Average Rainfall: ' + townNames[i].averageRainfall;
-        myPara3.textContent = 'Events:';
-                    
-        var events = townNames[i].events;
-        for(var j = 0; j < events.length; j++) {
-        var listItem = document.createElement('li');
-        listItem.textContent = events[j];
-        myList.appendChild(listItem);
-            }
+        myPara1.textContent = townNames[i].motto;
+        myPara2.textContent = 'Year founded: ' + townNames[i].yearFounded;
+        myPara3.textContent = 'Current population: ' + townNames[i].currentPopulation;
+        myPara4.textContent = 'Average Rainfall: ' + townNames[i].averageRainfall;
             
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
-        myArticle.appendChild(myList);
+        myArticle.appendChild(myPara4);
             
         section.appendChild(myArticle);
               }
