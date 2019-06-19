@@ -77,7 +77,7 @@
 </footer>
  
 <script>
-        var header = document.querySelector("header");
+        var header = document.querySelector('header');
         var section = document.querySelector('section');
             
         var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
@@ -98,7 +98,7 @@
         header.appendChild(myH1);
 
         var myPara = document.createElement("p");
-        myPara.textContent = "Motto: " + townNames[i].motto;
+        myPara.textContent = "Motto: " + jsonObj['motto'] <br> + ' Year founded: ' + jsonObj['yearFounded'];
         header.appendChild(myPara);
         }
                 
@@ -111,14 +111,12 @@
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
-        var myPara4 = document.createElement('p');
         var myList = document.createElement('ul');
             
         myH2.textContent = townNames[i].name;
-        myPara1.textContent = 'Year founded: ' + townNames[i].yearFounded;
-        myPara2.textContent = 'Current population: ' + townNames[i].currentPopulation;
-        myPara3.textContent = 'Average Rainfall: ' + townNames[i].averageRainfall;
-        myPara4.textContent = 'Events:';
+        myPara1.textContent = 'Current population: ' + townNames[i].currentPopulation;
+        myPara2.textContent = 'Average Rainfall: ' + townNames[i].averageRainfall;
+        myPara3.textContent = 'Events:';
                     
         var events = townNames[i].events;
         for(var j = 0; j < events.length; j++) {
@@ -131,7 +129,6 @@
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
-        myArticle.appendChild(myPara4);
         myArticle.appendChild(myList);
             
         section.appendChild(myArticle);
