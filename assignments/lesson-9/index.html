@@ -69,6 +69,10 @@
         var myH1 = document.createElement("h1");
         myH1.textContent = jsonObj["name"];
         header.appendChild(myH1);
+
+        var myPara = document.createElement("p");
+        myPara.textContent = "Motto: " + jsonObj["motto"];
+        header.appendChild(myPara);
                 
         function showTowns(jsonObj) {
         var townNames = jsonObj["towns"];
@@ -80,15 +84,13 @@
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
         var myPara4 = document.createElement('p');
-        var myPara5 = document.createElement('p');
         var myList = document.createElement('ul');
             
         myH2.textContent = townNames[i].name;
-        myPara1.textContent = 'Motto: ' + townNames[i].motto;
-        myPara2.textContent = 'Year Founded: ' + townNames[i].yearFounded;
-        myPara3.textContent = 'Current population: ' + townNames[i].currentPopulation;
-        myPara4.textContent = 'Average Rainfall: ' + townNames[i].averageRainfall;
-        myPara5.textContent = 'Events:';
+        myPara1.textContent = 'Year founded: ' + townNames[i].yearFounded;
+        myPara2.textContent = 'Current population: ' + townNames[i].currentPopulation;
+        myPara3.textContent = 'Average Rainfall: ' + townNames[i].averageRainfall;
+        myPara4.textContent = 'Events:';
                     
         var events = townNames[i].events;
         for(var j = 0; j < events.length; j++) {
@@ -102,7 +104,6 @@
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myPara4);
-        myArticle.appendChild(myPara5);
         myArticle.appendChild(myList);
             
         section.appendChild(myArticle);
