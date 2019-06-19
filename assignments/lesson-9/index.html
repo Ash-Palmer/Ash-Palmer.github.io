@@ -49,8 +49,10 @@
                 images/idaho-map.jpg 1200w">
         </figure>
        
-       
-    
+<figure><img id="townpics" src="images/pond-town.jpg" alt="Lake Town"></figure>     
+<figure><img id="townpics" src="images/snowy-town.jpg" alt="Lake Town"></figure> 
+<figure><img id="townpics" src="images/autumn-town.jpg" alt="Lake Town"></figure> 
+
 </main>
 
 <div class="row">
@@ -76,7 +78,7 @@
     &copy; Ashley Stevens |  <button onclick="displayDate()">Current Date</button>   
 </footer>
  
-<script class="weatherTowns">
+<script id="weatherTowns">
         var section = document.querySelector('section');
             
         var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
@@ -106,6 +108,11 @@
         myPara2.textContent = 'Year founded: ' + townNames[i].yearFounded;
         myPara3.textContent = 'Current population: ' + townNames[i].currentPopulation;
         myPara4.textContent = 'Average Rainfall: ' + townNames[i].averageRainfall;
+
+        function myFunction() {
+            var x = document.getElementById("townpics").src;
+            document.getElementById("weatherTowns").innerHTML = x;
+        }
             
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
