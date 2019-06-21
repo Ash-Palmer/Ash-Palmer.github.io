@@ -32,7 +32,7 @@ div.weatherGallery figure {
     flex-basis: 46%;
 }
 
-.weatherTowns figure {
+.townpics figure {
     flex-basis: 46%;}
 
 div.row section:nth-child(1) {width: 50%; float: left;}
