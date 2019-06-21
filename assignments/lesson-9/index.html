@@ -46,9 +46,11 @@
         <img class="map" src="images/idaho-map.jpg"sizes="100vw"
         srcset="images/idaho-map400.jpg 400w,
                 images/idaho-map800.jpg 800w,
-                images/idaho-map.jpg 1200w">
+                images/idaho-map1000.jpg 1000w">
         </figure>
-       
+
+   
+
 <figure><img id="townpics" src="images/pond-town.jpg" alt="Lake Town"></figure>     
 <figure><img id="townpics" src="images/snowy-town.jpg" alt="Lake Town"></figure> 
 <figure><img id="townpics" src="images/autumn-town.jpg" alt="Lake Town"></figure> 
@@ -93,7 +95,7 @@
                 }
                 
         function showTowns(jsonObj) {
-            var townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
+            var townNames = ["towns"][1], ["towns"][4], ["towns"][5];
 
             
         myH2.textContent = townNames[i].name;
