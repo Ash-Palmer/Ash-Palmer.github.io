@@ -20,8 +20,8 @@
         flex-basis: 29%;
     }
 
-    #weatherTowns figure {
-        flex-basis: 29%;}
+    .towns section {
+        flex-basis: 33%;}
 
     .norm:hover { box-shadow: 0 0 50px #333;}
      
