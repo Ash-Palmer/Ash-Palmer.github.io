@@ -36,7 +36,7 @@ div.weatherGallery figure {
 
 div.row section:nth-child(1) {width: 50%; float: left;}
 div.row section:nth-child(2) {width: 50%; float: left;}
-div.row {clear: both; background-color: #f0aa29;}
+div.row {clear: both;}
     /*----------- FOOTER --------------*/
         
     } /* end of media query */
