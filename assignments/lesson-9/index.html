@@ -96,8 +96,9 @@
                 }
                 
         function showTowns(jsonObj) {
-            var townNames = ["towns"][1], ["towns"][4], ["towns"][5];
-
+            var townNames = jsonObj["towns"][1];
+            var townNames = jsonObj["towns"][4];
+            var townNames = jsonObj["towns"][5];
             
         myH2.textContent = townNames[i].name;
         myPara1.textContent = townNames[i].motto;
