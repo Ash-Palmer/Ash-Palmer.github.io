@@ -99,6 +99,13 @@
             var townNames = jsonObj["towns"][1];
             var townNames = jsonObj["towns"][4];
             var townNames = jsonObj["towns"][5];
+
+            var myArticle = document.createElement("article");
+            var myH2 = document.createElement("h2");
+            var myPara1 = document.createElement("p");
+            var myPara2 = document.createElement("p");
+            var myPara3 = document.createElement("p");
+            var myPara4 = document.createElement("p");
             
         myH2.textContent = townNames[i].name;
         myPara1.textContent = townNames[i].motto;
@@ -106,11 +113,6 @@
         myPara3.textContent = 'Current population: ' + townNames[i].currentPopulation;
         myPara4.textContent = 'Average Rainfall: ' + townNames[i].averageRainfall;
         
-
-        function myFunction() {
-            var x = document.getElementById("townpics").src;
-            document.getElementById("weatherTowns").innerHTML = x;
-        }
             
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
@@ -119,10 +121,14 @@
         myArticle.appendChild(myPara4);
             
         section.appendChild(myArticle);
+
+        function myFunction() {
+            var x = document.getElementById("townpics").src;
+            document.getElementById("weatherTowns").innerHTML = x;
+        }
               }
             
-                
-        </script> 
+</script> 
 
 <script src="js/hamburger.js"></script>
 <script src="js/currentdate.js"></script>
