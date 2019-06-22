@@ -49,11 +49,12 @@
                 images/idaho-map1000.jpg 1000w">
         </figure>
 
-   
 
-<figure><img class="townpics" src="images/pond-town.jpg" alt="Lake Town"></figure>     
-<figure><img class="townpics" src="images/snowy-town.jpg" alt="Snowy Town"></figure> 
-<figure><img class="townpics" src="images/autumn-town.jpg" alt="Fall Town"></figure> 
+<div id="weatherTowns">  
+    <figure><img id="townpics" src="images/pond-town.jpg" alt="Lake Town"></figure>     
+    <figure><img id="townpics" src="images/snowy-town.jpg" alt="Snowy Town"></figure> 
+    <figure><img id="townpics" src="images/autumn-town.jpg" alt="Fall Town"></figure> 
+</div>
 
 </main>
 
@@ -80,7 +81,7 @@
     &copy; Ashley Stevens |  <button onclick="displayDate()">Current Date</button>   
 </footer>
  
-<script id="weatherTowns">
+<script>
         var section = document.querySelector('section');
             
         var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";

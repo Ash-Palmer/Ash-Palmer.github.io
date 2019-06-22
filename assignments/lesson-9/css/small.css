@@ -175,17 +175,17 @@ div.weatherGallery {
     flex-wrap: wrap;
 }
 
-.townpics {
+#weatherTowns {
     display: flex;
     flex-wrap: wrap;
 }
 
-.townpics figure {
+#weatherTowns figure {
     flex-basis: 96%;
     margin: 1rem 2%;
 }
 
-.townpics figure img {
+#weatherTowns figure img {
     width: 100%;
 }
 
