@@ -183,7 +183,7 @@ div.weatherGallery {
 .towns section {
     flex-basis: 96%;
     padding: .5rem 2%;
-    border: solid black 2px;
+    border: solid rgba(39, 110, 218) 2px;
 }
 
 .towns section img {
