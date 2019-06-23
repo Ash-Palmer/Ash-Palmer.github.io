@@ -87,7 +87,7 @@
  
 <script id="weatherTowns">
         var section = document.querySelector('section');
-        
+
         var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
         var request = new XMLHttpRequest();
         request.open("GET", requestURL);
@@ -112,6 +112,7 @@
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myPara4);
+        
         section.appendChild(myArticle);
         }
         </script>
