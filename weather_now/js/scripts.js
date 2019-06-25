@@ -8,4 +8,7 @@ weatherObject.onload = function() {
     document.getElementById("place").innerHTML = weatherInfo.name;
     document.getElementById("currentTemp").innerHTML = weatherInfo.main.temp;
     document.getElementById("windSpeed").innerHTML = weatherInfo.wind.speed;
+
+    const iconcode = weatherInfo.weather[0].icon;
+    console.log(iconcode);
 }
