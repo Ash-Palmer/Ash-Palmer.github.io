@@ -175,24 +175,6 @@ div.weatherGallery {
     flex-wrap: wrap;
 }
 
-.towns {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.towns section {
-    flex-basis: 96%;
-    padding: .5rem 2%;
-    border: solid rgba(39, 110, 218) 2px;
-    
-}
-
-.towns section img {
-    width: 100%;
-    
-}
-
 div.weatherGallery figure {
     flex-basis: 96%;
     margin: 1rem 2%;
@@ -203,6 +185,24 @@ div.weatherGallery figure img {
 }
 
 div.weatherGallery figcaption {text-align: center;}
+
+.towns {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.towns section {
+    flex-basis: 100%;
+    padding: .5rem 2%;
+    border: solid rgba(39, 110, 218) 2px;
+    
+}
+
+.towns section img {
+    width: 100%;
+    
+}
 
 figure { margin: 0; width: 100%;}
         
