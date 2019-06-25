@@ -7,7 +7,7 @@ const myRequestObject = new XMLHttpRequest();
 const myRequestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 let myWeatherInfo;
-myRequestObject.open("Get", myRequestURL);
+myRequestObject.open("GET", myRequestURL);
 myRequestObject.send();
 myRequestObject.onload = function() {
     myWeatherInfo = JSON.parse(myRequestObject.responseText);
