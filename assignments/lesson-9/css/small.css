@@ -198,7 +198,7 @@ div.weatherGallery figcaption {text-align: center;}
     padding: .5rem 2%;
     margin: 1rem 2%;
     border: solid rgba(39, 110, 218) 2px;
-    background-color: gray;
+    background-color: #999;
 }
 
 .towns section img {
