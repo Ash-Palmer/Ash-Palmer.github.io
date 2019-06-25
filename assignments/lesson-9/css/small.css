@@ -208,9 +208,9 @@ figure { margin: 0; width: 100%;}
         
 figure.sign img {width: 100%; clear:both; }
     
-div.row section {padding: 0 2%;}
+div.row section {padding: 0 2%; }
     
-div.row {clear: both;}
+div.row {clear: both; background-color: #f0aa29;}
       
   /* section styles */
   
