@@ -4,7 +4,7 @@ function adjustRating(rating) {
 
 const myRequestObject = new XMLHttpRequest();
 
-const myRequestURL = "towndata.json";
+const myRequestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 let myWeatherInfo;
 myRequestObject.open("Get", myRequestURL);
