@@ -178,13 +178,14 @@ div.weatherGallery {
 .towns {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .towns section {
     flex-basis: 96%;
     padding: .5rem 2%;
     border: solid rgba(39, 110, 218) 2px;
-    text-align: center;
+    
 }
 
 .towns section img {
