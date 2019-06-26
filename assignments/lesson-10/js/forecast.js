@@ -1,8 +1,8 @@
-const weatherObject = new XMLHttpRequest();
-weatherObject.open("GET","//api.openweathermap.org/data/2.5/weather?id=5604473&appid=e85ed115cdda94a41d0669084645767e&units=imperial", true);
-weatherObject.send();
-weatherObject.onload = function() {
-    let weatherData = JSON.parse(weatherObject.responseText);
+const weatherOb = new XMLHttpRequest();
+weatherOb.open("GET","//api.openweathermap.org/data/2.5/weather?id=5604473&appid=e85ed115cdda94a41d0669084645767e&units=imperial", true);
+weatherOb.send();
+weatherOb.onload = function() {
+    let weatherData = JSON.parse(weatherOb.responseText);
     console.log(weatherData);
 
     document.getElementById("currentTemp").innerHTML = weatherData.main.temp;
