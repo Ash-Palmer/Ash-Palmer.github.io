@@ -5,8 +5,5 @@ weatherObject.onload = function() {
     let weatherData = JSON.parse(weatherObject.responseText);
     console.log(weatherData);
 
-    document.getElementById("current").innerHTML = weatherData.;
-    document.getElementById("maxTemp").innerHTML = weatherData.;
-    document.getElementById("humidity").innerHTML = weatherData.;
-    document.getElementById("windSpeed").innerHTML = weatherData.wind.speed;
+   
 }

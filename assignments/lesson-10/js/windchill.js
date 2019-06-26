@@ -1,4 +1,4 @@
-let t = parseInt(document.getElementById("temperature").innerHTML);
+let t = parseInt(document.getElementById("maxTemp").innerHTML);
 
 let s = parseInt(document.getElementById("wind speed").innerHTML);
 
