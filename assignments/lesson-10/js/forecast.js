@@ -1,5 +1,5 @@
 const weatherOb = new XMLHttpRequest();
-weatherOb.open("GET","https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=e85ed115cdda94a41d0669084645767e&units=imperial", true);
+weatherOb.open("GET","https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=e85ed115cdda94a41d0669084645767e&units=imperial", true);
 weatherOb.send();
 weatherOb.onload = function() {
     let weatherData = JSON.parse(weatherOb.responseText);
