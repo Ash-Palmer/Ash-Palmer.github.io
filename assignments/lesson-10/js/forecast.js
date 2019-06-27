@@ -7,7 +7,7 @@ weatherOb.onload = function() {
 
     document.getElementById("currentTemp").innerHTML = weatherData.list[0].main.temp;
 
-    let icon = "https://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png"; 
+    let icon = "https://openweathermap.org/img/w/" + weatherData.list[0].weather[0].icon + ".png"; 
     let desc = weatherData.weather[0].description;
 
     document.getElementById("weather_icon").setAttribute("src", icon);
