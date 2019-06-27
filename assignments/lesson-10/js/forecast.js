@@ -13,3 +13,13 @@ weatherOb.onload = function() {
     document.getElementById("weather_icon").setAttribute("src", icon);
     document.getElementById("weather_icon").setAttribute("alt", desc);
 }
+
+const weatherFor = new XMLHttpRequest();
+weatherFor.open("GET","https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=e85ed115cdda94a41d0669084645767e&units=imperial", true);
+weatherFor.send();
+weatherFor.onload = function() {
+    let weatherD = JSON.parse(weatherFor.responseText);
+    console.log(weatherD);
+
+    
+}
