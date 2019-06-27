@@ -138,11 +138,17 @@
     request.responseType = "json";
     request.send();
 
-    request.onload = function showEvents(jsonObj) {
+    request.onload = function() { 
+        var towns = request.response;
+        showEvents(towns);
+    }
+
+    function showEvents(jsonObj) {
         var events = jsonObj["events"];
 
         for (var i = 0; i < events.length; i++) {
             var myArticle = document.createElement("article");
+            var myPara3 = document.createElement("p");
             var myList = document.createElement("ul");
 
             myPara3.textContent = "Town Events: ";
