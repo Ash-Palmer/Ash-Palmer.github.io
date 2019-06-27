@@ -146,21 +146,18 @@
     request.send();
 
     request.onload = function() { 
-        var towns = request.response;
-        showEvents(towns);
-    }
+        var Tevents = request.response;
+        showEvents(Tevents); 
+    
 
-    function showEvents(jsonObj) {
-        var events = jsonObj["events"];
-
-        
+ 
             var myArticle = document.createElement("article");
             var myPara3 = document.createElement("p");
             var myList = document.createElement("ul");
 
             myPara3.textContent = "Town Events: ";
 
-            var townEvents = events[i].events;
+            var townEvents = Tevents[i].events;
             for (var j = 0; j < townEvents.length; j++) {
                 var listItem = document.createElement("li");
                 listItem.textContent = townEvents[j];
