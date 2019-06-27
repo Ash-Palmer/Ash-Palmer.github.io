@@ -7,8 +7,9 @@ weatherOb.onload = function() {
 
     document.getElementById("currentTemp").innerHTML = weatherData.main.temp;
 
-    const iconcode = weatherData.weather[0].icon;
-    const icon_path = "//openweathermap.org/img/w" + iconcode + ".png";
-    console.log(icon_path);
-    document.getElementById("weather_icon").src = icon_path;
+    let icon = "http://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png"; 
+    let desc = weatherData.weather[0].description;
+
+    document.getElementById("weather_icon").setAttribute("src", icon);
+    document.getElementById("weather_icon").setAttribute("alt", desc);
 }
