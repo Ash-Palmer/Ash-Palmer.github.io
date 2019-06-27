@@ -135,9 +135,26 @@
     request.responseType = "json";
     request.send();
 
-    request.onload = function() {
-        var townEvents = request.response;
+    function showEvents(jsonObj) {
+        var events = jsonObj["events"];
 
+        for (var i = 0; i < events.length; i++) {
+            var myArticle = document.createElement("article");
+            var myList = document.createElement("ul");
+
+            myPara3.textContent = "Town Events: ";
+
+            var townEvents = events[i].events;
+            for (var j = 0; j < townEvents.length; j++) {
+                var listItem = document.createElement("li");
+                listItem.textContent = townEvents[j];
+                myList.appendChild(listItem);
+            }
+            
+            myArticle.appendChild(myList);
+
+            section.appendChild(myArticle);
+        }
     }
 </script>
 </body>
