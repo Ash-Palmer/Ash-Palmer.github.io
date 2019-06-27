@@ -92,6 +92,10 @@
         and national officials, and other interested parties. 
     </p>
     </div>
+
+            <section class="towns">
+                <div id="events"></div><img src="" alt="Town Events">
+            </section>
    
     <div class="row">
             <section>
@@ -114,7 +118,7 @@
 </main>
 
 <footer id="outputdiv">
-&copy; Ashley Stevens |  <button onclick="displayDate()">Current Date</button> |  <link href="https://openweathermap.org"> 
+&copy; Ashley Stevens |  <button onclick="displayDate()">Current Date</button> |  <p><link href="https://openweathermap.org"></p>
 </footer>
 
 <script src="js/hamburger.js"></script>
@@ -122,5 +126,19 @@
 <script src="js/weatherapi2.js"></script>
 <script src="js/windchill.js"></script>
 <script src="js/forecast.js"></script>
+<script>
+    var section = document.querySelector("section");
+
+    var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+    var request = new XMLHttpRequest();
+    request.open("GET", requestURL);
+    request.responseType = "json";
+    request.send();
+
+    request.onload = function() {
+        var townEvents = request.response;
+
+    }
+</script>
 </body>
 </html>
