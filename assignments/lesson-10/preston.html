@@ -146,7 +146,7 @@
     request.open("GET", requestURL);
     request.responseType = "json";
     request.send();
-    request.onload = function showEvents(jsonObj) {
+    request.onload = function() {
             Tevents = request.request;
             var myArticle = document.createElement("article");
             var myPara3 = document.createElement("p");
@@ -154,7 +154,7 @@
 
             myPara3.textContent = "Town Events: ";
 
-            var townEvents = Tevents[i].events;
+            var townEvents = Tevents[j].events;
             for (var j = 0; j < townEvents.length; j++) {
                 var listItem = document.createElement("li");
                 listItem.textContent = townEvents[j];
