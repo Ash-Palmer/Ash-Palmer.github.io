@@ -152,29 +152,31 @@
         showTowns(Tevents);
     } 
 
-            function showTowns(jsonObj) {
-                var towns = jsonObj["towns"];
+    function showTowns(jsonObj) {
+      var townEvents = jsonObj['towns'];
 
-                for (var i = 0; i < towns.length; i++) {
-            var myArticle = document.createElement("article");
-            var myPara3 = document.createElement("p");
-            var myList = document.createElement("ul");
+      for(var i = 0; i < townEvents.length; i++) {
+        var myArticle = document.createElement('article');
+        var myH2 = document.createElement('h2');
+        var myPara3 = document.createElement('p');
+        var myList = document.createElement('ul');
 
-            myPara3.textContent = "Town Events:";
+        myH2.textContent = townEvents[i].towns;
+        myPara3.textContent = 'Town events:';
 
-            var townEvents = towns[i].events;
-            for(var j = 0; j < townEvents.length; j++) {
-                var listItem = document.createElement("li");
-                listItem.textContent = townEvents[j];
-                myList.appendChild(listItem);
-            }
-
-            myArticle.appendChild(myPara3);
-            myArticle.appendChild(myList);
-
-            section.appendChild(myArticle);
+        var Events = townEvents[i].events;
+        for(var j = 0; j < Events.length; j++) {
+          var listItem = document.createElement('li');
+          listItem.textContent = Events[j];
+          myList.appendChild(listItem);
         }
-        }
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myList);
+        
+        section.appendChild(myArticle);
+      }
+    }
     
 </script>
 </body>

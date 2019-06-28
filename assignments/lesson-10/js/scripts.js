@@ -16,7 +16,11 @@ myRequestObject.onload = function() {
     document.getElementById("fish").innerHTML = assembleData(1);
     document.getElementById("preston").innerHTML = assembleData(4);
     document.getElementById("soda").innerHTML = assembleData(5);
+    
 }
+
+
+
 
 function assembleData(x) {
     console.log(myWeatherInfo.towns[x]);
@@ -26,6 +30,7 @@ function assembleData(x) {
     townInfo += "<p>Year founded: "+myWeatherInfo.towns[x].yearFounded+"</p>";
     townInfo += "<p>Current population: "+myWeatherInfo.towns[x].currentPopulation+"</p>";
     townInfo += "<p>Average rainfall: "+myWeatherInfo.towns[x].averageRainfall+"</p>";
-
+    townInfo += "<ul>Town events: "+myWeatherInfo.towns[x].events+"</ul>";
+    
     return townInfo;
 }
