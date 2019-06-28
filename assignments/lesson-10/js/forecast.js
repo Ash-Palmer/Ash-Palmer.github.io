@@ -5,7 +5,7 @@ weatherOb.onload = function() {
     let weatherData = JSON.parse(weatherOb.responseText);
     console.log(weatherData);
 
-    document.getElementById("temp1").innerHTML = weatherData.list[7].main.temp;
+    document.getElementById("currentTemp").innerHTML = weatherData.list[7].main.temp;
     document.getElementById("temp2").innerHTML = weatherData.list[15].main.temp;
     document.getElementById("temp3").innerHTML = weatherData.list[23].main.temp;
     document.getElementById("temp4").innerHTML = weatherData.list[31].main.temp;
