@@ -15,18 +15,6 @@ weatherOb.onload = function() {
     let icon = "https://openweathermap.org/img/w/" + weatherData.list[7].weather[0].icon + ".png"; 
     let desc = weatherData.list[7].weather[0].description;
 
-    let icon = "https://openweathermap.org/img/w/" + weatherData.list[15].weather[0].icon + ".png"; 
-    let desc = weatherData.list[15].weather[0].description;
-
-    let icon = "https://openweathermap.org/img/w/" + weatherData.list[23].weather[0].icon + ".png"; 
-    let desc = weatherData.list[23].weather[0].description;
-
-    let icon = "https://openweathermap.org/img/w/" + weatherData.list[31].weather[0].icon + ".png"; 
-    let desc = weatherData.list[31].weather[0].description;
-
-    let icon = "https://openweathermap.org/img/w/" + weatherData.list[39].weather[0].icon + ".png"; 
-    let desc = weatherData.list[39].weather[0].description;
-
     document.getElementById("weather_icon").setAttribute("src", icon);
     document.getElementById("weather_icon").setAttribute("alt", desc);
 }
