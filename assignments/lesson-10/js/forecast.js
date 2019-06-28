@@ -5,7 +5,11 @@ weatherOb.onload = function() {
     let weatherData = JSON.parse(weatherOb.responseText);
     console.log(weatherData);
 
-    document.getElementById("currentTemp").innerHTML = weatherData.list[0].main.temp;
+    document.getElementById("currentTemp").innerHTML = weatherData.list[7].main.temp;
+    document.getElementById("currentTemp").innerHTML = weatherData.list[15].main.temp;
+    document.getElementById("currentTemp").innerHTML = weatherData.list[23].main.temp;
+    document.getElementById("currentTemp").innerHTML = weatherData.list[31].main.temp;
+    document.getElementById("currentTemp").innerHTML = weatherData.list[39].main.temp;
 
     let icon = "https://openweathermap.org/img/w/" + weatherData.list[0].weather[0].icon + ".png"; 
     let desc = weatherData.list[0].weather[0].description;
