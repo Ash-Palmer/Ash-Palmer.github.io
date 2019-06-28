@@ -153,7 +153,7 @@
     } 
 
     function showTowns(jsonObj) {
-      let townEvents = jsonObj["towns"][1], ["towns"][4], ["towns"][5];
+      let townEvents = jsonObj["towns"][1]["towns"][4]["towns"][5];
       console.log(townEvents);
 
       for(var i = 0; i < townEvents.length; i++) {
