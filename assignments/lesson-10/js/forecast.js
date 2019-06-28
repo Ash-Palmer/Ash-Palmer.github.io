@@ -23,6 +23,24 @@ weatherOb.onload = function() {
 
     document.getElementById("weather_icon2").setAttribute("src", icon2);
     document.getElementById("weather_icon2").setAttribute("alt", desc2);
+
+    let icon3 = "https://openweathermap.org/img/w/" + weatherData.list[23].weather[0].icon + ".png"; 
+    let desc3 = weatherData.list[23].weather[0].description;
+
+    document.getElementById("weather_icon2").setAttribute("src", icon3);
+    document.getElementById("weather_icon2").setAttribute("alt", desc3);
+
+    let icon4 = "https://openweathermap.org/img/w/" + weatherData.list[31].weather[0].icon + ".png"; 
+    let desc4 = weatherData.list[31].weather[0].description;
+
+    document.getElementById("weather_icon2").setAttribute("src", icon4);
+    document.getElementById("weather_icon2").setAttribute("alt", desc4);
+
+    let icon5 = "https://openweathermap.org/img/w/" + weatherData.list[39].weather[0].icon + ".png"; 
+    let desc5 = weatherData.list[39].weather[0].description;
+
+    document.getElementById("weather_icon2").setAttribute("src", icon5);
+    document.getElementById("weather_icon2").setAttribute("alt", desc5);
 }
 
 function dayOfWeek() {
