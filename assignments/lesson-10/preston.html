@@ -102,7 +102,9 @@
 
 
     <article>
-        
+        <section>
+
+        </section>
     </article>
 
    
@@ -137,7 +139,7 @@
 <script src="js/forecast.js"></script>
 
 <script>
-    var article = document.querySelector("article");
+    var section = document.querySelector("article.section");
 
     var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
     var myRequestObject = new XMLHttpRequest();
@@ -149,11 +151,11 @@
 
     myRequestObject.onload = function() {
        var Tevents = myRequestObject.response;
-        showTowns(Tevents);
+       showTowns(Tevents);
     } 
 
     function showTowns(jsonObj) {
-      let townEvents = jsonObj["towns"];
+      let townEvents = jsonObj["towns"][1];
       console.log(townEvents);
 
       for(var i = 0; i < townEvents.length; i++) {
@@ -175,7 +177,7 @@
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myList);
 
-        article.appendChild(myArticle);
+        section.appendChild(myArticle);
       }
     }
     
