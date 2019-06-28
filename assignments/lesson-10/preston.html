@@ -142,23 +142,24 @@
     var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
     var myRequestObject = new XMLHttpRequest();
 
-    let Tevents;
     myRequestObject.open("GET", requestURL);
     myRequestObject.responseType = "json";
     myRequestObject.send();
     myRequestObject.onload = function() {
-            Tevents = myRequestObject.response;
+            var Tevents = myRequestObject.response;
+            showEvents(Tevents);
+    }
+
+            function showEvents(jsonObj) {
+                var townEvents = jsonObj["events"];
+
+                for (var i = 0; i < townEvents.length; i++) {
             var myArticle = document.createElement("article");
             var myPara3 = document.createElement("p");
             var myList = document.createElement("ul");
 
             myPara3.textContent = "Town Events: ";
 
-            var townEvents = Tevents[j].events;
-            for (var j = 0; j < townEvents.length; j++) {
-                var listItem = document.createElement("li");
-                listItem.textContent = townEvents[j];
-                myList.appendChild(listItem);
             
             
             myArticle.appendChild(myPara3);
