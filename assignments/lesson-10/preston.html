@@ -139,48 +139,25 @@
 <script src="js/forecast.js"></script>
 
 <script>
-    var section = document.querySelector("article section");
-
     var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
     var myRequestObject = new XMLHttpRequest();
 
-    
     myRequestObject.open("GET", requestURL);
     myRequestObject.responseType = "json";
     myRequestObject.send();
 
     myRequestObject.onload = function() {
        var Tevents = myRequestObject.response;
-       showTowns(Tevents);
-    } 
+       document.getElementById("Fname").innerHTML = Tevents.towns[1].name;
+       document.getElementById("Fevent").innerHTML = Tevents.towns[1].events;
 
-    function showTowns(jsonObj) {
-      let townEvents = jsonObj["towns"];
-      console.log(townEvents);
+       document.getElementById("Pname").innerHTML = Tevents.towns[4].name;
+       document.getElementById("Pevent").innerHTML = Tevents.towns[4].events;
 
-      for(var i = 0; i < townEvents.length; i++) {
-        var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
-        var myPara3 = document.createElement('p');
-        var myList = document.createElement('ul');
-
-        myH2.textContent = townEvents[i].name;
-        myPara3.textContent = 'Town events:';
-
-        var Events = townEvents[i].events;
-        for(var j = 0; j < Events.length; j++) {
-          var listItem = document.createElement('li');
-          listItem.textContent = Events[j];
-          myList.appendChild(listItem);
-        }
-        myArticle.appendChild(myH2);
-        myArticle.appendChild(myPara3);
-        myArticle.appendChild(myList);
-
-        section.appendChild(myArticle);
-      }
+       document.getElementById("Sname").innerHTML = Tevents.towns[5].name;
+       document.getElementById("Sevent").innerHTML = Tevents.towns[5].events;
     }
-    
+        
 </script>
 </body>
 </html>
