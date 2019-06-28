@@ -139,7 +139,7 @@
 <script src="js/forecast.js"></script>
 
 <script>
-    var section = document.querySelector("article.section");
+    var section = document.querySelector("article section");
 
     var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
     var myRequestObject = new XMLHttpRequest();
@@ -155,7 +155,7 @@
     } 
 
     function showTowns(jsonObj) {
-      let townEvents = jsonObj["towns"][1];
+      let townEvents = jsonObj["towns"];
       console.log(townEvents);
 
       for(var i = 0; i < townEvents.length; i++) {
