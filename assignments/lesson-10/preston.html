@@ -153,7 +153,8 @@
     } 
 
     function showTowns(jsonObj) {
-      var townEvents = jsonObj['towns'];
+      let townEvents = jsonObj["towns"][1], ["towns"][4], ["towns"][5];
+      console.log(townEvents);
 
       for(var i = 0; i < townEvents.length; i++) {
         var myArticle = document.createElement('article');
@@ -173,7 +174,7 @@
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myList);
-        
+
         section.appendChild(myArticle);
       }
     }
