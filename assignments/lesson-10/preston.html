@@ -141,11 +141,13 @@
 
     var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
     var request = new XMLHttpRequest();
+
+    let Tevents;
     request.open("GET", requestURL);
     request.responseType = "json";
     request.send();
-
     request.onload = function showEvents(jsonObj) {
+            Tevents = request.request;
             var myArticle = document.createElement("article");
             var myPara3 = document.createElement("p");
             var myList = document.createElement("ul");
