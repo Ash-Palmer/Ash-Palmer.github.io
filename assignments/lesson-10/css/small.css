@@ -190,7 +190,7 @@ div.weatherGallery figcaption {text-align: center;}
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    background-color: rgb(180, 177, 177);
+    background-color: rgb(240, 174, 120);
 }
 
 .towns section {
