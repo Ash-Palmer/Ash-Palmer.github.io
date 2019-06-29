@@ -186,6 +186,8 @@ div.weatherGallery figure img {
 
 div.weatherGallery figcaption {text-align: center;}
 
+h4 {color: rgba(39, 110, 218);}
+
 .towns {
     display: flex;
     flex-wrap: wrap;
