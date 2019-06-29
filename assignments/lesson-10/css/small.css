@@ -191,7 +191,7 @@ div.weatherGallery figcaption {text-align: center;}
     flex-wrap: wrap;
     text-align: center;
     background-color: #f0aa29;
-    
+    clear: both;
 }
 
 .towns section {
