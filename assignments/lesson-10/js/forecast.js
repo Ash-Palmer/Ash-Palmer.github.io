@@ -5,39 +5,39 @@ weatherOb.onload = function() {
     let weatherData = JSON.parse(weatherOb.responseText);
     console.log(weatherData);
 
-    document.getElementById("currentTemp").innerHTML = weatherData.list[8].main.temp;
-    document.getElementById("temp2").innerHTML = weatherData.list[16].main.temp;
-    document.getElementById("temp3").innerHTML = weatherData.list[24].main.temp;
-    document.getElementById("temp4").innerHTML = weatherData.list[32].main.temp;
-    document.getElementById("temp5").innerHTML = weatherData.list[40].main.temp;
+    document.getElementById("currentTemp").innerHTML = weatherData.list[0].main.temp;
+    document.getElementById("temp2").innerHTML = weatherData.list[8].main.temp;
+    document.getElementById("temp3").innerHTML = weatherData.list[16].main.temp;
+    document.getElementById("temp4").innerHTML = weatherData.list[24].main.temp;
+    document.getElementById("temp5").innerHTML = weatherData.list[32].main.temp;
 
 
-    let icon = "https://openweathermap.org/img/w/" + weatherData.list[8].weather[0].icon + ".png"; 
-    let desc = weatherData.list[8].weather[0].description;
+    let icon = "https://openweathermap.org/img/w/" + weatherData.list[0].weather[0].icon + ".png"; 
+    let desc = weatherData.list[0].weather[0].description;
 
     document.getElementById("weather_icon").setAttribute("src", icon);
     document.getElementById("weather_icon").setAttribute("alt", desc);
 
-    let icon2 = "https://openweathermap.org/img/w/" + weatherData.list[16].weather[0].icon + ".png"; 
-    let desc2 = weatherData.list[16].weather[0].description;
+    let icon2 = "https://openweathermap.org/img/w/" + weatherData.list[8].weather[0].icon + ".png"; 
+    let desc2 = weatherData.list[8].weather[0].description;
 
     document.getElementById("weather_icon2").setAttribute("src", icon2);
     document.getElementById("weather_icon2").setAttribute("alt", desc2);
 
-    let icon3 = "https://openweathermap.org/img/w/" + weatherData.list[24].weather[0].icon + ".png"; 
-    let desc3 = weatherData.list[24].weather[0].description;
+    let icon3 = "https://openweathermap.org/img/w/" + weatherData.list[16].weather[0].icon + ".png"; 
+    let desc3 = weatherData.list[16].weather[0].description;
 
     document.getElementById("weather_icon3").setAttribute("src", icon3);
     document.getElementById("weather_icon3").setAttribute("alt", desc3);
 
-    let icon4 = "https://openweathermap.org/img/w/" + weatherData.list[32].weather[0].icon + ".png"; 
-    let desc4 = weatherData.list[32].weather[0].description;
+    let icon4 = "https://openweathermap.org/img/w/" + weatherData.list[24].weather[0].icon + ".png"; 
+    let desc4 = weatherData.list[24].weather[0].description;
 
     document.getElementById("weather_icon4").setAttribute("src", icon4);
     document.getElementById("weather_icon4").setAttribute("alt", desc4);
 
-    let icon5 = "https://openweathermap.org/img/w/" + weatherData.list[40].weather[0].icon + ".png"; 
-    let desc5 = weatherData.list[40].weather[0].description;
+    let icon5 = "https://openweathermap.org/img/w/" + weatherData.list[32].weather[0].icon + ".png"; 
+    let desc5 = weatherData.list[32].weather[0].description;
 
     document.getElementById("weather_icon5").setAttribute("src", icon5);
     document.getElementById("weather_icon5").setAttribute("alt", desc5);
