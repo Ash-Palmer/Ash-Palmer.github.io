@@ -29,7 +29,7 @@ weatherOb.onload = function() {
         var time = list[i].dt_txt;
         console.log(i + "--" + time);
 
-        if (time.includes("24:00:00")) {
+        if (time.includes("00:00:00")) {
             console.log("Noon on day "+i + "--" + time);
             console.log(weatherData.list[i].main.temp);
 
