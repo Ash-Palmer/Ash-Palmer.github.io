@@ -55,7 +55,7 @@ weatherOb.onload = function() {
             theDay.appendChild(theTemp);
             theDay.appendChild(theIcon);
 
-            document.getElementById(weatherforecast).appendChild(theDay);
+            document.getElementById("weatherforecast").appendChild(theDay);
         }
     }
 }
