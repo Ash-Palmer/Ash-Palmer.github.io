@@ -20,6 +20,10 @@
         flex-basis: 29%;
     }
 
+    section#weatherforecast div {
+        flex-basis: 16%;
+    }
+
     .towns section {
         flex-basis: 29%;}
 

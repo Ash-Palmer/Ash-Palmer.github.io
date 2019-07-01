@@ -32,6 +32,10 @@ div.weatherGallery figure {
     flex-basis: 46%;
 }
 
+section#weatherforecast div {
+    flex-basis: 29%;
+}
+
 .towns section {flex-basis: 50%;}
 
 div.row section:nth-child(1) {width: 50%; float: left;}

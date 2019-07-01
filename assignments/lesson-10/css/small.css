@@ -114,6 +114,23 @@ main h2 { color: rgb(118, 161, 224);
         padding: 0; 
         clear: both;}
 
+section#weatherforecast {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#weatherforecast div{
+    flex-basis: 46%;
+    margin: 1rem 2%;
+    border: 1px solid #999;
+    text-align: center;
+}
+
+section#weatherforecast div span {
+    background-color: aqua;
+    display: block;
+    padding: .5rem 0;
+}
 /*----------- FORM --------------*/
 form fieldset {
     margin: 2rem 0;
