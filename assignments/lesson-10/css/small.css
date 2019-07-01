@@ -127,7 +127,7 @@ section#weatherforecast div{
 }
 
 section#weatherforecast div span {
-    background-color: aqua;
+    background-color: #f0aa29;
     display: block;
     padding: .5rem 0;
 }
