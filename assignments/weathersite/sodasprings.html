@@ -17,31 +17,50 @@
 
 <body>
 <header class="clearfix">
-    <img src="images/weather-logo.png" alt="logo">	
-        <h1></h1>
-            <h2></h2>
-
-
-
+    <img class="logo" src="images/weather-logo.png" alt="logo" 
+    srcset="images/weather-logo1.png 1x, images/weather-logo2.png 2x,
+            images/weather-logo3.png 3x">
+    <div>
+        <h1>Local Weather Forecast.news</h1>
+        <h2>Idaho's #1 Weather Channel</h2>
+     </div>
 </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+            
+<!-- NAVIGATION HERE -->
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="goaway">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li> 
+            <li><a href="stormcenter.html">Storm Center</a></li> 
+            <li><a href="gallery.html">Gallery</a></li>   
+        </ul>
+</nav>
+            
+<!-- CONTENT HERE -->
+<main class="clearfix">
+    <h1>Soda Springs</h1>
+        <div class="herodiv">
+                    
+            <img class="heroimg" src="images/hero-image-min.jpeg"sizes="100vw"
+            srcset="images/hero-image400.jpg 400w,
+                    images/hero-image800.jpg 800w,
+                    images/hero-image1200.jpg 1200w">
+                    
+<section class="conditions">
+    <h3>Weather Summary</h3>
+        <p>Currently: <span id="current"></span></p>
+        <p>High: <span id="maxTemp">50</span>°F</p> 
+        <p>Wind Chill: <span id="output"></span>°F</p>
+        <p>Humidity: <span id="humidity">4</span>%</p>
+        <p>Wind Speed: <span id="wind speed">4</span>mph</p>
+</section>
+</div>   
+                        
+<!-- Forecast Table HERE -->
+<div class="hide">
+    <h2>5 Day Forecast</h2>
+        <section id="weatherforecast"></section>
+</div>
