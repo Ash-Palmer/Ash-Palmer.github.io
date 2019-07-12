@@ -51,7 +51,7 @@
 
 nav ul li.active a{background-color: #dfc907; color: #000;}
 
-nav ul li a:hover {background-color: #f0aa29;}
+nav ul li a:hover {background-color: white;}
 
 nav ul.goaway {display: none;}
 
@@ -109,7 +109,7 @@ main {
 main h1 { 
         padding: 1rem 2%; 
         margin: 0; 
-        color: #f0aa29;}
+        color: #dfc907;}
         
 main h2 { color: #dfc907; 
         padding: 0; 
