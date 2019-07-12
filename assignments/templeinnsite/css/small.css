@@ -188,21 +188,21 @@ form label.top input:required:valid {
     border-left: rgba(39, 110, 218) solid 6px;
 }
 
-div.weatherGallery {
+div.templeGallery {
     display: flex;
     flex-wrap: wrap;
 }
 
-div.weatherGallery figure {
+div.templeGallery figure {
     flex-basis: 96%;
     margin: 1rem 2%;
 }
 
-div.weatherGallery figure img {
+div.templeGallery figure img {
     width: 100%;
 }
 
-div.weatherGallery figcaption {text-align: center;}
+div.templeGallery figcaption {text-align: center;}
 
 h4 {color: rgba(39, 110, 218);}
 
