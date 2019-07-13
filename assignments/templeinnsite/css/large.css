@@ -17,7 +17,7 @@
     nav ul.goaway { display: block;}
     
     div.templeGallery figure {
-        flex-basis: 29%;
+        flex-basis: 20%;
     }
 
     section#weatherforecast div {
