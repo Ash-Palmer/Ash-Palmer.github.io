@@ -16,6 +16,10 @@
 
     nav ul.goaway { display: block;}
     
+    div.templeGallery {
+        flex-wrap: nowrap;
+    }
+
     div.templeGallery figure {
         flex-basis: 20%;
     }
