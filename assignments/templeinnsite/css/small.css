@@ -58,7 +58,7 @@ div button:hover {box-shadow: 0 0 50px #333;}
 
 nav ul li.active a{background-color: white; color: #000;}
 
-nav ul li a:hover {background-color: white;}
+nav ul li a:hover {background-color: rgb(219, 210, 210);}
 
 nav ul.goaway {display: none;}
 
