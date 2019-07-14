@@ -21,7 +21,11 @@
     display: block;
 }
 
-
+div section.amenities {
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+}
 
     figure.slcTemplePic img {
         float: right;
