@@ -41,8 +41,8 @@ div button {
     margin: .2rem 2%;
     background-color: #0790df;
     font-size: 1.6rem;
-    box-shadow: 0 0 50px #333;
 }
+div button:hover {box-shadow: 0 0 50px #333;}
 
     nav {background-color: rgb(187,184,184);}
     
