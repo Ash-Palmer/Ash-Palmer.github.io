@@ -37,7 +37,11 @@
         color: #fff;
     }
     
-
+div button {
+    margin: .2rem 2%;
+    background-color: #0790df;
+    font-size: 1.6rem;
+}
 
     nav {background-color: rgb(187,184,184);}
     
