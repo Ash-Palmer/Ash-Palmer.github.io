@@ -4,32 +4,36 @@ function adjustRating(rating) {
 
 const myRequestObject = new XMLHttpRequest();
 
-const myRequestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+const myRequestURL = "https://Ash-Palmer.github.io/assignments/templeinnsite/js/templelist.json";
 
-let myWeatherInfo;
+let myTempleInfo;
 myRequestObject.open("GET", myRequestURL);
 myRequestObject.send();
 myRequestObject.onload = function() {
-    myWeatherInfo = JSON.parse(myRequestObject.responseText);
-    console.log(myWeatherInfo);
+    myTempleInfo = JSON.parse(myRequestObject.responseText);
+    console.log(myTempleInfo);
 
-    document.getElementById("fish").innerHTML = assembleData(1);
-    document.getElementById("preston").innerHTML = assembleData(4);
-    document.getElementById("soda").innerHTML = assembleData(5);
-    
+    document.getElementById("bountiful").innerHTML = assembleData(0);
+    document.getElementById("cedarcity").innerHTML = assembleData(1);
+    document.getElementById("jordanriver").innerHTML = assembleData(2);
+    document.getElementById("manti").innerHTML = assembleData(3);
 }
 
 
 
 
 function assembleData(x) {
-    console.log(myWeatherInfo.towns[x]);
+    console.log(myTempleInfo.temple[x]);
 
-    let townInfo = "<h2>"+myWeatherInfo.towns[x].name+"</h2>";
-    townInfo += "<i>"+myWeatherInfo.towns[x].motto+"</i>";
-    townInfo += "<p>Year founded: "+myWeatherInfo.towns[x].yearFounded+"</p>";
-    townInfo += "<p>Current population: "+myWeatherInfo.towns[x].currentPopulation+"</p>";
-    townInfo += "<p>Average rainfall: "+myWeatherInfo.towns[x].averageRainfall+"</p>";
+    let tInfo = "<h2>"+myTempleInfo.temple[x].name+"</h2>";
+    tInfo += "<p>Address: "+myTempleInfo.temple[x].address+"</p>";
+    tInfo += "<p>Telephone: "+myTempleInfo.temple[x].telephone+"</p>";
+    tInfo += "<p>History: "+myTempleInfo.temple[x].history+"</p>";
+    tInfo += "<p>Summary: "+myTempleInfo.temple[x].summary+"</p>";
+    tInfo += "<p>Services: "+myTempleInfo.temple[x].services+"</p>";
+    tInfo += "<p>Sealing schedule: "+myTempleInfo.temple[x].sealingschedule+"</p>";
+    tInfo += "<p>Session schedule: "+myTempleInfo.temple[x].sessionschedule+"</p>";
+    tInfo += "<p>Closure: "+myTempleInfo.temple[x].closure+"</p>";
     
-    return townInfo;
+    return tInfo;
 }
