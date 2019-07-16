@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
-<title>Local Weather Forecast.news</title>
+<meta name="description" content="Specialized hotel accomodations near LDS temple locations around the world">
+<meta name="author" content="Ashley Stevens">
+<title>Reservation: Temple Inn & Suites.com</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -16,90 +16,67 @@
 </head>
 
 <body>
-<header class="clearfix">
-    <img class="logo" src="images/weather-logo.png" alt="logo" 
-    srcset="images/weather-logo1.png 1x, images/weather-logo2.png 2x,
-            images/weather-logo3.png 3x">
-    <div>
-        <h1>Local Weather Forecast.news</h1>
-        <h2>Idaho's #1 Weather Channel</h2>
-     </div>
-</header>
+    <header class="clearfix">
+        <img class="logo" src="images/logo-temple.png" alt="logo"
+            srcset="images/logo-temple1.png 1x, images/logo-temple2.png 2x,
+                    images/logo-temple3.png 3x">
+            <div>
+                <h1>Temple Inn & Suites</h1>
+                    <h2><em>"Gathering together in one--even in Him"</em></h2>
+            </div>
+    </header>
             
 <!-- NAVIGATION HERE -->
 <nav class="clearfix">
-    <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="goaway">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li> 
-            <li><a href="stormcenter.html">Storm Center</a></li> 
-            <li><a href="gallery.html">Gallery</a></li>   
-        </ul>
+        <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="goaway">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li class="active"><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li> 
+                <li><a href="contact.html">Contact</a></li>   
+            </ul>
 </nav>
             
 <!-- CONTENT HERE -->
 <main class="clearfix">
-    <h1>Soda Springs</h1>
-        <div class="herodiv">
-                    
-            <img class="heroimg" src="images/hero-image-min.jpeg"sizes="100vw"
-            srcset="images/hero-image400.jpg 400w,
-                    images/hero-image800.jpg 800w,
-                    images/hero-image1200.jpg 1200w">
-                    
-<section class="conditions">
-    <h3>Weather Summary</h3>
-        <p>Currently: <span id="current"></span></p>
-        <p>High: <span id="maxTemp">50</span>°F</p> 
-        <p>Wind Chill: <span id="output"></span>°F</p>
-        <p>Humidity: <span id="humidity">4</span>%</p>
-        <p>Wind Speed: <span id="wind speed">4</span>mph</p>
-</section>
-</div>   
-                        
-<!-- Forecast Table HERE -->
-<div class="hide">
-    <h2>5 Day Forecast</h2>
-        <section id="weatherforecast"></section>
-</div>
+    <h1>Reservation Form</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                    <label class="top">Full Name* <input type="text" name="fname" pattern="[/A-Z]a-z^s]{5,}" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="user@gmail.com"></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label class="top">Home state* <input type="text" name="state" required></label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Room Details</legend>
+                <label class="bottom">Location <select name="subject"> 
+                        <option value="">Select City</option>
+                        <option value="bountifulCity">Bountiful</option>
+                        <option value="cedarCity">Cedar City</option>
+                        <option value="jordanRiver">Jordan River</option>
+                        <option value="mantiCity">Manti</option>
+                        </select>
+                </label>
+                <label class="bottom">Date <input type="date" name="date"></label>
+                <label class="bottom">Number of Rooms <input list="room"></label>
+                <datalist id="roomNum">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">                 
+                </datalist>
+            </fieldset>
 
-<div>
-<h2>This Day in History</h2>
-    <figure class="sign">
-        <img src="images/geyser.jpg"  
-        alt="Photo of Soda Springs Geyser">
-    </figure>
-       
-    <p>Not only is it Independence Day, Soda Springs is also celebrating 100 years
-        of Caribou County! "Soda Springs was established as the county seat of Oneida
-        County when it was created in January 1864. Soda Springs is named after and 
-        famous for its hundreds of natural springs of carbonated water. The Soda Springs
-        Geyser is the only captive geyser in the world. It is let loose every hour on
-        the hour by a timed release valve. Its height and volume have not decreased 
-        after all these years."
-    </p>
-</div>
-    
-<div class="clearfix">
-    <h2>Town Events</h2>
-        <article class="towns">
-            <section>
-                <h4 id="Fname"></h4>
-                    <p id="Fevent"></p>
-            </section>
-            <section>
-                <h4 id="Pname"></h4>
-                    <p id="Pevent"></p>
-            </section>
-            <section>
-                <h4 id="Sname"></h4>
-                    <p id="Sevent"></p>
-            </section>
-        </article>
-</div>
-    
+            <fieldset>
+                    <legend>Special Accomodations/Comments</legend>
+                        <textarea rows="4" cols="50"></textarea>
+                </fieldset>
+        
+                <input type="submit" value="Report Storm" class="submitBtn">
+        </form>
 <div class="row">
     <section>
         <h3>Address:</h3>
