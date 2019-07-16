@@ -215,7 +215,7 @@ div.templeGallery figcaption {text-align: center;}
 
 h4 {color: rgba(39, 110, 218);}
 
-.towns {
+.temples {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -223,7 +223,7 @@ h4 {color: rgba(39, 110, 218);}
     clear: both;
 }
 
-.towns section {
+.temples section {
     flex-basis: 100%;
     padding: 1rem 2%;
     border: solid rgba(39, 110, 218) 2px;
@@ -232,7 +232,7 @@ h4 {color: rgba(39, 110, 218);}
     clear: both;
 }
 
-.towns section img {
+.temples section img {
     width: 100%;
 }
 
