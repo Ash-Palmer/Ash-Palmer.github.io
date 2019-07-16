@@ -36,7 +36,11 @@ section#weatherforecast div {
     flex-basis: 29%;
 }
 
-.temples section {flex-basis: 50%;}
+.temples {
+    flex-wrap: nowrap;
+}
+
+.temples section {flex-basis: 46%;}
 
 div.row section:nth-child(1) {width: 50%; float: left;}
 div.row section:nth-child(2) {width: 50%; float: left;}
