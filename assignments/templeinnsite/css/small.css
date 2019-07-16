@@ -196,7 +196,7 @@ h4 {color: rgba(39, 110, 218);}
 
 .temples {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     text-align: center;
     background-color: #dfc907;
     clear: both;
