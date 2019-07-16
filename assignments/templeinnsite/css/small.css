@@ -198,14 +198,14 @@ h4 {color: rgba(39, 110, 218);}
     display: flex;
     flex-wrap: nowrap;
     text-align: center;
-    background-color: #dfc907;
+    background-color: rgb(219, 210, 210);;
     clear: both;
 }
 
 .temples section {
     flex-basis: 100%;
     padding: 1rem 2%;
-    border: solid rgba(39, 110, 218) 2px;
+    border: solid #dfc907 2px;
     margin: 1rem 2%;
     background-color: white;
     clear: both;
