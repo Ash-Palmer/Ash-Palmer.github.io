@@ -158,7 +158,7 @@ form label.bottom {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color: #555;
+    color: black;
     font-size: .8rem;
 }
 form input.submitBtn {
