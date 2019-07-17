@@ -35,7 +35,9 @@
         font-size: 1.6rem;
         color: #fff;
     }
-    
+   
+div.sA { background-color: rgb(219, 210, 210);}   
+
 div button {
     margin: .2rem 2%;
     background-color: #dfc907;
