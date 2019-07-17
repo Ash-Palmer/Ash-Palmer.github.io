@@ -123,6 +123,8 @@ section#weatherforecast div span {
 }
 /*----------- FORM --------------*/
 form fieldset {
+    display: flex;
+    flex-wrap: wrap;
     margin: 2rem 0;
     border: 1px solid black;
     padding: .5rem 2%;
