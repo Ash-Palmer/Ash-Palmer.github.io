@@ -32,10 +32,6 @@ div.templeGallery figure {
     flex-basis: 46%;
 }
 
-section#weatherforecast div {
-    flex-basis: 29%;
-}
-
 .temples {
     flex-wrap: nowrap;
 }
