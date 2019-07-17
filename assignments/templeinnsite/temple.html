@@ -27,15 +27,22 @@
     </header>
 
 <!-- NAVIGATION HERE -->
-<nav class="clearfix">
-    <button onclick="toggleMenu()">&#9776;</button>
-    <ul id="primaryNav" class="goaway">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="temple.html">Temple</a></li>
-            <li><a href="reservation.html">Reservation</a></li>
-            <li><a href="services.html">Services</a></li> 
-            <li><a href="contact.html">Contact</a></li>   
-    </ul>
+<nav class="clearfix"  id="primaryNav" class="goaway">
+        <button onclick="toggleMenu()">&#9776;</button>
+                <div class="navbar">
+                    <a href="index.html">Home</a>
+                    <a href="temple.html">Temple</a>
+                    <a href="reservation.html">Reservation</a>
+                    <div class="subnav">
+                        <button class="subnavbtn">Services <i class="fa fa-caret down"></i></button>
+                        <div class="subnav-content">
+                            <a href="services.html">Services and Amenities</a>
+                            <a href="reception.html">Reception</a>
+                            <a href="templemissionary.html">Full-time Temple Missionary</a>
+                        </div>
+                    </div>
+                    <a href="contact.html">Contact</a>
+                </div>
 </nav>
 
 <!-- CONTENT HERE -->
