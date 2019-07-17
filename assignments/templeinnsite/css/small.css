@@ -64,7 +64,7 @@ div button:hover {box-shadow: 0 0 50px #333;}
         margin: 0;
     }
 
-.navbar .active a{background-color: white; color: #000;}
+.navbar .active a {background-color: white; color: #000;}
 
 .navbar a:hover, .subnav:hover .subnavbtn {background-color: rgb(219, 210, 210);}
 
