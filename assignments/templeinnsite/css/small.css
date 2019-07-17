@@ -36,10 +36,6 @@
         color: #fff;
     }
    
-div.sA { background-color: rgb(219, 210, 210);} 
-
-section.services, section.amenities {background-color: white;}
-
 div button {
     margin: .2rem 2%;
     background-color: #dfc907;
