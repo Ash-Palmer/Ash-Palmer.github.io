@@ -36,6 +36,20 @@ div.templeGallery figure {
     flex-wrap: nowrap;
 }
 
+figure.hotel img {
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+    padding-bottom: .5rem;
+}
+
+figure.computer img {
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+    padding-bottom: .5rem;
+}
+
 .temples section {flex-basis: 46%;}
 
 div.servAmen section:nth-child(1) {width: 50%; float: left;}

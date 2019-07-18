@@ -264,6 +264,10 @@ div.row {clear: both;}
 div.servAmen section {padding: 0 2%;}
 
 div.servAmen {clear: both;}
+        
+figure.hotel img {width: 100%; clear:both;}
+
+figure.computer img {width: 100%; clear: both;}
       
   /* section styles */
   
