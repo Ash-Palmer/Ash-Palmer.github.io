@@ -69,8 +69,6 @@
 
     .norm:hover { box-shadow: 0 0 50px #333;}
 
-    div.servAmen section:nth-child(1) {width: 50%; float: left;}
-    div.servAmen section:nth-child(2) {width: 50%; float: left;}
-    div.servAmen {clear: both;}
+ 
      
     }
