@@ -52,10 +52,6 @@ figure.computer img {
 
 .temples section {flex-basis: 46%;}
 
-div.servAmen section:nth-child(1) {width: 50%; float: left;}
-div.servAmen section:nth-child(2) {width: 50%; float: left;}
-div.servAmen {clear: both;}
-
 div.row section:nth-child(1) {width: 50%; float: left;}
 div.row section:nth-child(2) {width: 50%; float: left;}
 div.row {clear: both;}
