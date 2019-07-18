@@ -231,6 +231,22 @@ div.templeGallery figure img {
 
 div.templeGallery figcaption {text-align: center;}
 
+div.weddingGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.weddingGallery figure {
+    flex-basis: 86%;
+    margin: 1rem 2%;
+}
+
+div.weddingGallery figure img {
+    width: 100%;
+}
+
+div.weddingGallery figcaption {text-align: center;}
+
 h4 {color: rgba(39, 110, 218);}
 
 .temples {

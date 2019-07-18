@@ -64,6 +64,14 @@
         flex-basis: 29%;
     }
 
+    div.weddingGallery {
+        flex-wrap: nowrap;
+    }
+
+    div.weddingGallery figure {
+        flex-basis: 29%;
+    }
+
     .temples section {
         flex-basis: 29%;}
 

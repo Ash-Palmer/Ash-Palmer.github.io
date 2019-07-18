@@ -32,6 +32,10 @@ div.templeGallery figure {
     flex-basis: 46%;
 }
 
+div.weddingGallery figure {
+    flex-basis: 46%;
+}
+
 .temples {
     flex-wrap: nowrap;
 }
