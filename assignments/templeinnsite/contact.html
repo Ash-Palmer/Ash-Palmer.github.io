@@ -52,9 +52,8 @@
         <fieldset>
             <legend>Contact Information</legend>
                 <label class="top">Full Name* <input type="text" name="fname" pattern="[/A-Z]a-z^s]{5,}" required></label>
-                <label class="top">Email <input type="email" name="email" placeholder="user@gmail.com"></label>
-                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="top">Zip Code* <input type="number" name="zip" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="user@gmail.com" required></label>
+                <label class="top">Email Subject <input type="text" name="subject"></label>
         </fieldset>
 
         <fieldset>
@@ -87,12 +86,12 @@
 </main>
 
 <footer id="outputdiv">
-&copy; Ashley Stevens |  <button onclick="displayDate()">Current Date</button>  |  <a href="https://openweathermap.org">Open Weather Map</a>
+&copy; Ashley Stevens |  <button onclick="displayDate()">Current Date</button>  
 </footer>
         
 <script src="js/hamburger.js"></script>
 <script src="js/scripts.js"></script>
 <script src="js/currentdate.js"></script>
-<script src="js/windchill.js"></script>
+
 </body>
 </html>
