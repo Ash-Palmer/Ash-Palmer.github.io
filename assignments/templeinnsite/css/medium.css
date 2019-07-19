@@ -47,6 +47,13 @@ figure.hotel img {
     padding-bottom: .5rem;
 }
 
+figure.dining img {
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+    padding-bottom: .5rem;
+}
+
 figure.computer img {
     float: left;
     width: 48%;
