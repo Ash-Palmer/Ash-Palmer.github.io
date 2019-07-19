@@ -302,6 +302,7 @@ figure.computer img {width: 100%; clear: both;}
     margin-top: 0;
   }
   
+  iframe {margin: 0; width: 100%;}
     
 footer {
         text-align: center;
