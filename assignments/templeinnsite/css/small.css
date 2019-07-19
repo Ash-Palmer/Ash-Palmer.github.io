@@ -282,8 +282,12 @@ div.row {clear: both;}
 div.servAmen section {padding: 0 2%;}
 
 div.servAmen {clear: both;}
+
+figure.hotel {margin: 0; width: 100%;}
         
 figure.hotel img {width: 100%; clear:both;}
+
+figure.computer {margin: 0; width: 100%;}
 
 figure.computer img {width: 100%; clear: both;}
       
