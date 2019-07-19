@@ -310,6 +310,9 @@ footer {
         background-color: #000;
         clear: both;
     }
+
+.resourceLink {color: white;}
+
  footer button {
         margin: .2rem 2%;
         background-color: transparent;
