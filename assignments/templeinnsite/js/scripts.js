@@ -1,7 +1,3 @@
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
-}
-
 const myRequestObject = new XMLHttpRequest();
 
 const myRequestURL = "https://Ash-Palmer.github.io/assignments/templeinnsite/js/templelist.json";
